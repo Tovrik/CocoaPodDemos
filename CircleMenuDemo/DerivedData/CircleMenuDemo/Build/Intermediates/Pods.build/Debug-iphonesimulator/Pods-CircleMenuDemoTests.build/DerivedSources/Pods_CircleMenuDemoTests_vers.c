@@ -1,0 +1,1 @@
+ const unsigned char Pods_CircleMenuDemoTestsVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_CircleMenuDemoTests  PROJECT:Pods-1" "\n"; const double Pods_CircleMenuDemoTestsVersionNumber __attribute__ ((used)) = (double)1.;

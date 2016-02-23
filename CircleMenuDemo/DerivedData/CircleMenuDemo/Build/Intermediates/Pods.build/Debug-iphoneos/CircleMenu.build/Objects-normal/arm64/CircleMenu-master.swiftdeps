@@ -1,0 +1,7 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "60ee5477e2062863d1b3c6bd38b798d9"
+build_time: [509575617, 656110000]
+inputs:
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/Pods/CircleMenu/CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift": [509486269, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/Pods/CircleMenu/CircleMenuLib/CircleMenu.swift": [509486269, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/Pods/CircleMenu/CircleMenuLib/CircleMenuButton/CircleMenuButton.swift": [509486269, 0]

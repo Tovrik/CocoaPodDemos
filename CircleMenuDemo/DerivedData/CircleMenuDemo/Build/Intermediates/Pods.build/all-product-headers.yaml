@@ -1,0 +1,60 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/CircleMenu.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "CircleMenu-Swift.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/CircleMenu.framework/Headers/CircleMenu-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "CircleMenu-umbrella.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/Pods/Target Support Files/CircleMenu/CircleMenu-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/CircleMenu.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Intermediates/Pods.build/Debug-iphoneos/CircleMenu.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/Pods_CircleMenuDemo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-CircleMenuDemo-umbrella.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/Pods/Target Support Files/Pods-CircleMenuDemo/Pods-CircleMenuDemo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_CircleMenuDemo-Swift.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/Pods_CircleMenuDemo.framework/Headers/Pods_CircleMenuDemo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Products/Debug-iphoneos/Pods_CircleMenuDemo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/DerivedData/CircleMenuDemo/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CircleMenuDemo.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

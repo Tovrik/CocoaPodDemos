@@ -1,0 +1,12 @@
+PODS:
+  - CircleMenu (0.0.5)
+
+DEPENDENCIES:
+  - CircleMenu (~> 0.0)
+
+SPEC CHECKSUMS:
+  CircleMenu: bc368a47d767051f3373ee38b8f6d6dbdc1ee8ab
+
+PODFILE CHECKSUM: 5d874ccdfa9df07ee148488ff33ff95adb5a6018
+
+COCOAPODS: 1.0.0.beta.3
