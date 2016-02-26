@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C14CircleMenuDemo11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationDidEnterBackground"
-- "application"
-- "applicationWillTerminate"
-- "window"
-- "applicationDidBecomeActive"
-- "applicationWillEnterForeground"
 - "applicationWillResignActive"
+- "application"
+- "applicationDidEnterBackground"
+- "applicationWillEnterForeground"
+- "window"
+- "applicationWillTerminate"
+- "applicationDidBecomeActive"
 depends-top-level:
-- "Bool"
 - "NSObject"
-- "UIWindow"
-- "AnyObject"
-- !private "BooleanLiteralType"
 - "UIApplicationDelegate"
-- "UIApplication"
-- "AppDelegate"
 - "UIResponder"
+- "AnyObject"
+- "AppDelegate"
+- !private "BooleanLiteralType"
+- "Bool"
+- "UIWindow"
+- "UIApplication"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]

@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "a3580f3d989a0373d69170df27e477a8"
+build_time: [509834717, 745592000]
+inputs:
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/CircleMenuDemo/ViewController.swift": [509575014, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/CircleMenuDemo/CircleMenuDemo/AppDelegate.swift": [509486155, 0]
