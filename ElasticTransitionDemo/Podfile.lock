@@ -1,0 +1,15 @@
+PODS:
+  - ElasticTransition (2.1.0):
+    - MotionAnimation (~> 0.0.5)
+  - MotionAnimation (0.0.5)
+
+DEPENDENCIES:
+  - ElasticTransition (~> 2.1)
+
+SPEC CHECKSUMS:
+  ElasticTransition: 7c04b2ad4323fc4b18475c60f061cf4be7399f00
+  MotionAnimation: d9d4060bf4f494dd61bf868b8969a31b1b0b6f2a
+
+PODFILE CHECKSUM: 46919fcb51d98488c423a405d9f267241f378774
+
+COCOAPODS: 1.0.0.beta.3

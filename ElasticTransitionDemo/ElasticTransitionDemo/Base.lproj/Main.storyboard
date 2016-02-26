@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Initial View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="InitialViewController" customModule="ElasticTransitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;---- Drag from side to side ---&gt;" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DW9-HB-K25">
+                                <rect key="frame" x="152.5" y="287.5" width="295" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Initial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Gj-tz-kUE">
+                                <rect key="frame" x="274" y="20" width="51.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.88235294117647056" green="0.42745098039215684" blue="0.25490196078431371" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="DW9-HB-K25" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0oI-Pj-Wgq"/>
+                            <constraint firstItem="1Gj-tz-kUE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="BZA-ll-uX3"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="DW9-HB-K25" secondAttribute="leading" id="GS6-Fg-gdT"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DW9-HB-K25" secondAttribute="bottom" constant="277" id="YWV-kQ-2nH"/>
+                            <constraint firstItem="DW9-HB-K25" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zj5-uM-KXP"/>
+                            <constraint firstItem="DW9-HB-K25" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="256" id="d0j-Tc-G9x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DW9-HB-K25" secondAttribute="trailing" id="niC-Xa-vRB"/>
+                            <constraint firstItem="1Gj-tz-kUE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vLH-Nb-ZXw"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="GS6-Fg-gdT"/>
+                                <exclude reference="d0j-Tc-G9x"/>
+                                <exclude reference="niC-Xa-vRB"/>
+                                <exclude reference="YWV-kQ-2nH"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <segue destination="qxg-rd-PgO" kind="show" identifier="menu" id="CZm-Qe-YgE"/>
+                        <segue destination="T2G-wC-tT6" kind="show" identifier="settings" id="51I-sx-iBR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="366" y="430"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="m0G-xF-unP">
+            <objects>
+                <viewController id="qxg-rd-PgO" customClass="MenuViewController" customModule="ElasticTransitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iAM-IJ-XHl"/>
+                        <viewControllerLayoutGuide type="bottom" id="MAb-hB-47k"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bo3-uX-0W1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Back to initial --&gt;" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oca-7b-CKq">
+                                <rect key="frame" x="234" y="290.5" width="132" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Menu" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ND-6a-axi">
+                                <rect key="frame" x="272" y="28" width="55.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18823529411764706" green="0.40784313725490196" blue="0.56470588235294117" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="7ND-6a-axi" firstAttribute="top" secondItem="iAM-IJ-XHl" secondAttribute="bottom" constant="8" id="Mgu-H6-uOV"/>
+                            <constraint firstItem="7ND-6a-axi" firstAttribute="centerX" secondItem="bo3-uX-0W1" secondAttribute="centerX" id="PrM-zF-EO5"/>
+                            <constraint firstItem="oca-7b-CKq" firstAttribute="centerX" secondItem="bo3-uX-0W1" secondAttribute="centerX" id="bE6-cr-Fcc"/>
+                            <constraint firstItem="oca-7b-CKq" firstAttribute="centerY" secondItem="bo3-uX-0W1" secondAttribute="centerY" id="zae-2P-bxA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TEZ-1e-8YH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26" y="1208"/>
+        </scene>
+        <!--Settings View Controller-->
+        <scene sceneID="G47-Uy-PJD">
+            <objects>
+                <viewController id="T2G-wC-tT6" customClass="SettingsViewController" customModule="ElasticTransitionDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yXZ-wE-MoN"/>
+                        <viewControllerLayoutGuide type="bottom" id="BNV-UK-OnJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="khH-et-FOb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="&lt;-- Back to initial" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHt-f9-L9b">
+                                <rect key="frame" x="234" y="290.5" width="132" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO0-AZ-XZ7">
+                                <rect key="frame" x="259" y="20" width="81" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.1764705882352941" green="0.60784313725490191" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="IO0-AZ-XZ7" firstAttribute="centerX" secondItem="khH-et-FOb" secondAttribute="centerX" id="5mH-fz-8AO"/>
+                            <constraint firstItem="fHt-f9-L9b" firstAttribute="centerX" secondItem="khH-et-FOb" secondAttribute="centerX" id="7Nc-Hq-hLC"/>
+                            <constraint firstItem="fHt-f9-L9b" firstAttribute="centerY" secondItem="khH-et-FOb" secondAttribute="centerY" id="DfN-7g-0L7"/>
+                            <constraint firstItem="IO0-AZ-XZ7" firstAttribute="top" secondItem="yXZ-wE-MoN" secondAttribute="bottom" id="W2V-jC-aG1"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q45-O1-5DA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="1208"/>
+        </scene>
+    </scenes>
+</document>

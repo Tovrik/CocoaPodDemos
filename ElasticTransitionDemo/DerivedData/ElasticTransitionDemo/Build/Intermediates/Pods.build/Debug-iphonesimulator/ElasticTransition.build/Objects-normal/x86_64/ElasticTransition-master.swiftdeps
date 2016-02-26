@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "e879746dafadf2f28b8a984ca13d3342"
+build_time: [509606953, 349781000]
+inputs:
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/ElasticTransition/ElasticTransition/Util.swift": [509606882, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/ElasticTransition/ElasticTransition/EdgePanTransition.swift": [509606882, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/ElasticTransition/ElasticTransition/ElasticTransition.swift": [509606882, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/ElasticTransition/ElasticTransition/ElasticShapeLayer.swift": [509606882, 0]

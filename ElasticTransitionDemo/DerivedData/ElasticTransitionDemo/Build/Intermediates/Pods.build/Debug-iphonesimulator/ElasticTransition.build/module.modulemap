@@ -1,0 +1,10 @@
+framework module ElasticTransition {
+  umbrella header "ElasticTransition-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module ElasticTransition.Swift {
+    header "ElasticTransition-Swift.h"
+}

@@ -1,0 +1,449 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MenuViewController"
+provides-nominal:
+- "C21ElasticTransitionDemo18MenuViewController"
+provides-member:
+- ["C21ElasticTransitionDemo18MenuViewController", ""]
+provides-dynamic-lookup:
+- "handleRightPan"
+- "rightGestureRecognizer"
+- "viewDidLoad"
+- "prevViewController"
+- "preferredStatusBarStyle"
+- "transition"
+- "nextViewController"
+depends-top-level:
+- "ElasticTransition"
+- "InitialViewController"
+- !private "=="
+- "UIScreenEdgePanGestureRecognizer"
+- !private "StringLiteralType"
+- "UIStatusBarStyle"
+- "SettingsViewController"
+- "MenuViewController"
+- !private "UIColor"
+- "UIPanGestureRecognizer"
+- "UIViewController"
+depends-member:
+- !private ["PSs9AnyObject", "UIColor"]
+- ["PSs9AnyObject", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSs9AnyObject", "addGestureRecognizer"]
+- !private ["PSs9AnyObject", "addTarget"]
+- !private ["PSs9AnyObject", "backgroundColor"]
+- !private ["PSs9AnyObject", "dissmissInteractiveTransition"]
+- !private ["PSs9AnyObject", "edges"]
+- ["PSs9AnyObject", "handleRightPan"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "nextViewController"]
+- ["PSs9AnyObject", "preferredStatusBarStyle"]
+- ["PSs9AnyObject", "prevViewController"]
+- ["PSs9AnyObject", "rightGestureRecognizer"]
+- !private ["PSs9AnyObject", "state"]
+- ["PSs9AnyObject", "transition"]
+- !private ["PSs9AnyObject", "updateInteractiveTransition"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Right"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- ["PSs11CVarArgType", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSs11CVarArgType", "addGestureRecognizer"]
+- !private ["PSs11CVarArgType", "addTarget"]
+- !private ["PSs11CVarArgType", "backgroundColor"]
+- !private ["PSs11CVarArgType", "dissmissInteractiveTransition"]
+- !private ["PSs11CVarArgType", "edges"]
+- ["PSs11CVarArgType", "handleRightPan"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "nextViewController"]
+- ["PSs11CVarArgType", "preferredStatusBarStyle"]
+- ["PSs11CVarArgType", "prevViewController"]
+- ["PSs11CVarArgType", "rightGestureRecognizer"]
+- !private ["PSs11CVarArgType", "state"]
+- ["PSs11CVarArgType", "transition"]
+- !private ["PSs11CVarArgType", "updateInteractiveTransition"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- ["PSs23CustomStringConvertible", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addGestureRecognizer"]
+- !private ["PSs23CustomStringConvertible", "addTarget"]
+- !private ["PSs23CustomStringConvertible", "backgroundColor"]
+- !private ["PSs23CustomStringConvertible", "dissmissInteractiveTransition"]
+- !private ["PSs23CustomStringConvertible", "edges"]
+- ["PSs23CustomStringConvertible", "handleRightPan"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "nextViewController"]
+- ["PSs23CustomStringConvertible", "preferredStatusBarStyle"]
+- ["PSs23CustomStringConvertible", "prevViewController"]
+- ["PSs23CustomStringConvertible", "rightGestureRecognizer"]
+- !private ["PSs23CustomStringConvertible", "state"]
+- ["PSs23CustomStringConvertible", "transition"]
+- !private ["PSs23CustomStringConvertible", "updateInteractiveTransition"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["C17ElasticTransition17EdgePanTransition", "dissmissInteractiveTransition"]
+- !private ["C17ElasticTransition17EdgePanTransition", "updateInteractiveTransition"]
+- !private ["C17ElasticTransition17ElasticTransition", "dissmissInteractiveTransition"]
+- !private ["C17ElasticTransition17ElasticTransition", "updateInteractiveTransition"]
+- !private ["PSs9Equatable", "Began"]
+- !private ["PSs9Equatable", "LightContent"]
+- !private ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "Right"]
+- !private ["PSs9Equatable", "UIColor"]
+- ["PSs9Equatable", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addGestureRecognizer"]
+- !private ["PSs9Equatable", "addTarget"]
+- !private ["PSs9Equatable", "backgroundColor"]
+- !private ["PSs9Equatable", "dissmissInteractiveTransition"]
+- !private ["PSs9Equatable", "edges"]
+- ["PSs9Equatable", "handleRightPan"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "nextViewController"]
+- ["PSs9Equatable", "preferredStatusBarStyle"]
+- ["PSs9Equatable", "prevViewController"]
+- ["PSs9Equatable", "rightGestureRecognizer"]
+- !private ["PSs9Equatable", "state"]
+- ["PSs9Equatable", "transition"]
+- !private ["PSs9Equatable", "updateInteractiveTransition"]
+- !private ["PSs9Equatable", "view"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "Began"]
+- !private ["PSs8Hashable", "LightContent"]
+- !private ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "UIColor"]
+- ["PSs8Hashable", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addGestureRecognizer"]
+- !private ["PSs8Hashable", "addTarget"]
+- !private ["PSs8Hashable", "backgroundColor"]
+- !private ["PSs8Hashable", "dissmissInteractiveTransition"]
+- !private ["PSs8Hashable", "edges"]
+- ["PSs8Hashable", "handleRightPan"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "nextViewController"]
+- ["PSs8Hashable", "preferredStatusBarStyle"]
+- ["PSs8Hashable", "prevViewController"]
+- ["PSs8Hashable", "rightGestureRecognizer"]
+- !private ["PSs8Hashable", "state"]
+- ["PSs8Hashable", "transition"]
+- !private ["PSs8Hashable", "updateInteractiveTransition"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["C21ElasticTransitionDemo18MenuViewController", "ElasticTransition"]
+- ["C21ElasticTransitionDemo18MenuViewController", "InitialViewController"]
+- ["C21ElasticTransitionDemo18MenuViewController", "SettingsViewController"]
+- !private ["C21ElasticTransitionDemo18MenuViewController", "UIColor"]
+- ["C21ElasticTransitionDemo18MenuViewController", "UIPanGestureRecognizer"]
+- ["C21ElasticTransitionDemo18MenuViewController", "UIScreenEdgePanGestureRecognizer"]
+- ["C21ElasticTransitionDemo18MenuViewController", "UIStatusBarStyle"]
+- ["C21ElasticTransitionDemo18MenuViewController", "deinit"]
+- ["C21ElasticTransitionDemo18MenuViewController", "handleRightPan"]
+- ["C21ElasticTransitionDemo18MenuViewController", "init"]
+- ["C21ElasticTransitionDemo18MenuViewController", "nextViewController"]
+- ["C21ElasticTransitionDemo18MenuViewController", "preferredStatusBarStyle"]
+- ["C21ElasticTransitionDemo18MenuViewController", "prevViewController"]
+- ["C21ElasticTransitionDemo18MenuViewController", "rightGestureRecognizer"]
+- ["C21ElasticTransitionDemo18MenuViewController", "transition"]
+- !private ["C21ElasticTransitionDemo18MenuViewController", "view"]
+- ["C21ElasticTransitionDemo18MenuViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "UIColor"]
+- ["PSo8NSCoding", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSo8NSCoding", "addGestureRecognizer"]
+- !private ["PSo8NSCoding", "backgroundColor"]
+- ["PSo8NSCoding", "handleRightPan"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "nextViewController"]
+- ["PSo8NSCoding", "preferredStatusBarStyle"]
+- ["PSo8NSCoding", "prevViewController"]
+- ["PSo8NSCoding", "rightGestureRecognizer"]
+- ["PSo8NSCoding", "transition"]
+- !private ["PSo8NSCoding", "view"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- ["PSo26NSExtensionRequestHandling", "UIScreenEdgePanGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "handleRightPan"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "nextViewController"]
+- ["PSo26NSExtensionRequestHandling", "preferredStatusBarStyle"]
+- ["PSo26NSExtensionRequestHandling", "prevViewController"]
+- ["PSo26NSExtensionRequestHandling", "rightGestureRecognizer"]
+- ["PSo26NSExtensionRequestHandling", "transition"]
+- !private ["PSo26NSExtensionRequestHandling", "view"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- ["CSo8NSObject", "ElasticTransition"]
+- ["CSo8NSObject", "InitialViewController"]
+- ["CSo8NSObject", "SettingsViewController"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "UIPanGestureRecognizer"]
+- ["CSo8NSObject", "UIScreenEdgePanGestureRecognizer"]
+- ["CSo8NSObject", "UIStatusBarStyle"]
+- !private ["CSo8NSObject", "addGestureRecognizer"]
+- !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "backgroundColor"]
+- !private ["CSo8NSObject", "dissmissInteractiveTransition"]
+- !private ["CSo8NSObject", "edges"]
+- ["CSo8NSObject", "handleRightPan"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "nextViewController"]
+- ["CSo8NSObject", "preferredStatusBarStyle"]
+- ["CSo8NSObject", "prevViewController"]
+- ["CSo8NSObject", "rightGestureRecognizer"]
+- !private ["CSo8NSObject", "state"]
+- ["CSo8NSObject", "transition"]
+- !private ["CSo8NSObject", "updateInteractiveTransition"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "backgroundColor"]
+- !private ["PSo16NSObjectProtocol", "dissmissInteractiveTransition"]
+- !private ["PSo16NSObjectProtocol", "edges"]
+- ["PSo16NSObjectProtocol", "handleRightPan"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "nextViewController"]
+- ["PSo16NSObjectProtocol", "preferredStatusBarStyle"]
+- ["PSo16NSObjectProtocol", "prevViewController"]
+- ["PSo16NSObjectProtocol", "rightGestureRecognizer"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- ["PSo16NSObjectProtocol", "transition"]
+- !private ["PSo16NSObjectProtocol", "updateInteractiveTransition"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSs13OptionSetType", "Right"]
+- !private ["PSs16RawRepresentable", "Began"]
+- !private ["PSs16RawRepresentable", "LightContent"]
+- !private ["PSs16RawRepresentable", "RawValue"]
+- !private ["PSs16RawRepresentable", "Right"]
+- !private ["V10ObjectiveC8Selector", "deinit"]
+- !private ["PSs14SetAlgebraType", "Right"]
+- !private ["PSo29UIAccessibilityIdentification", "addGestureRecognizer"]
+- !private ["PSo29UIAccessibilityIdentification", "backgroundColor"]
+- !private ["PSo12UIAppearance", "addGestureRecognizer"]
+- !private ["PSo12UIAppearance", "backgroundColor"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "addGestureRecognizer"]
+- !private ["PSo21UIAppearanceContainer", "backgroundColor"]
+- ["PSo21UIAppearanceContainer", "handleRightPan"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "nextViewController"]
+- ["PSo21UIAppearanceContainer", "preferredStatusBarStyle"]
+- ["PSo21UIAppearanceContainer", "prevViewController"]
+- ["PSo21UIAppearanceContainer", "rightGestureRecognizer"]
+- ["PSo21UIAppearanceContainer", "transition"]
+- !private ["PSo21UIAppearanceContainer", "view"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- ["PSo18UIContentContainer", "UIScreenEdgePanGestureRecognizer"]
+- ["PSo18UIContentContainer", "handleRightPan"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "nextViewController"]
+- ["PSo18UIContentContainer", "preferredStatusBarStyle"]
+- ["PSo18UIContentContainer", "prevViewController"]
+- ["PSo18UIContentContainer", "rightGestureRecognizer"]
+- ["PSo18UIContentContainer", "transition"]
+- !private ["PSo18UIContentContainer", "view"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "addGestureRecognizer"]
+- !private ["PSo17UICoordinateSpace", "backgroundColor"]
+- !private ["PSo13UIDynamicItem", "addGestureRecognizer"]
+- !private ["PSo13UIDynamicItem", "backgroundColor"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UIFocusEnvironment", "backgroundColor"]
+- ["PSo18UIFocusEnvironment", "handleRightPan"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "nextViewController"]
+- ["PSo18UIFocusEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UIFocusEnvironment", "prevViewController"]
+- ["PSo18UIFocusEnvironment", "rightGestureRecognizer"]
+- ["PSo18UIFocusEnvironment", "transition"]
+- !private ["PSo18UIFocusEnvironment", "view"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo19UIGestureRecognizer", "addTarget"]
+- !private ["CSo19UIGestureRecognizer", "edges"]
+- ["CSo19UIGestureRecognizer", "init"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- !private ["PSo27UIGestureRecognizerDelegate", "dissmissInteractiveTransition"]
+- !private ["PSo27UIGestureRecognizerDelegate", "updateInteractiveTransition"]
+- !private ["OSC24UIGestureRecognizerState", "Began"]
+- !private ["OSC24UIGestureRecognizerState", "RawValue"]
+- !private ["OSC24UIGestureRecognizerState", "deinit"]
+- !private ["PSo30UINavigationControllerDelegate", "dissmissInteractiveTransition"]
+- !private ["PSo30UINavigationControllerDelegate", "updateInteractiveTransition"]
+- !private ["CSo22UIPanGestureRecognizer", "addTarget"]
+- !private ["CSo22UIPanGestureRecognizer", "edges"]
+- ["CSo22UIPanGestureRecognizer", "init"]
+- !private ["CSo22UIPanGestureRecognizer", "state"]
+- !private ["VSC10UIRectEdge", "Right"]
+- ["CSo11UIResponder", "ElasticTransition"]
+- ["CSo11UIResponder", "InitialViewController"]
+- ["CSo11UIResponder", "SettingsViewController"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "UIPanGestureRecognizer"]
+- ["CSo11UIResponder", "UIScreenEdgePanGestureRecognizer"]
+- ["CSo11UIResponder", "UIStatusBarStyle"]
+- !private ["CSo11UIResponder", "addGestureRecognizer"]
+- !private ["CSo11UIResponder", "backgroundColor"]
+- ["CSo11UIResponder", "handleRightPan"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "nextViewController"]
+- ["CSo11UIResponder", "preferredStatusBarStyle"]
+- ["CSo11UIResponder", "prevViewController"]
+- ["CSo11UIResponder", "rightGestureRecognizer"]
+- ["CSo11UIResponder", "transition"]
+- !private ["CSo11UIResponder", "view"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["CSo32UIScreenEdgePanGestureRecognizer", "addTarget"]
+- !private ["CSo32UIScreenEdgePanGestureRecognizer", "edges"]
+- ["CSo32UIScreenEdgePanGestureRecognizer", "init"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- ["PSo16UIStateRestoring", "UIScreenEdgePanGestureRecognizer"]
+- ["PSo16UIStateRestoring", "handleRightPan"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "nextViewController"]
+- ["PSo16UIStateRestoring", "preferredStatusBarStyle"]
+- ["PSo16UIStateRestoring", "prevViewController"]
+- ["PSo16UIStateRestoring", "rightGestureRecognizer"]
+- ["PSo16UIStateRestoring", "transition"]
+- !private ["PSo16UIStateRestoring", "view"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["OSC16UIStatusBarStyle", "LightContent"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "UIScreenEdgePanGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "addGestureRecognizer"]
+- !private ["PSo18UITraitEnvironment", "backgroundColor"]
+- ["PSo18UITraitEnvironment", "handleRightPan"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "nextViewController"]
+- ["PSo18UITraitEnvironment", "preferredStatusBarStyle"]
+- ["PSo18UITraitEnvironment", "prevViewController"]
+- ["PSo18UITraitEnvironment", "rightGestureRecognizer"]
+- ["PSo18UITraitEnvironment", "transition"]
+- !private ["PSo18UITraitEnvironment", "view"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "addGestureRecognizer"]
+- !private ["CSo6UIView", "backgroundColor"]
+- ["CSo16UIViewController", "ElasticTransition"]
+- ["CSo16UIViewController", "InitialViewController"]
+- ["CSo16UIViewController", "SettingsViewController"]
+- !private ["CSo16UIViewController", "UIColor"]
+- ["CSo16UIViewController", "UIPanGestureRecognizer"]
+- ["CSo16UIViewController", "UIScreenEdgePanGestureRecognizer"]
+- ["CSo16UIViewController", "UIStatusBarStyle"]
+- ["CSo16UIViewController", "handleRightPan"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "nextViewController"]
+- ["CSo16UIViewController", "preferredStatusBarStyle"]
+- ["CSo16UIViewController", "prevViewController"]
+- ["CSo16UIViewController", "rightGestureRecognizer"]
+- ["CSo16UIViewController", "transition"]
+- !private ["CSo16UIViewController", "view"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "dissmissInteractiveTransition"]
+- !private ["PSo37UIViewControllerAnimatedTransitioning", "updateInteractiveTransition"]
+- !private ["PSo40UIViewControllerInteractiveTransitioning", "dissmissInteractiveTransition"]
+- !private ["PSo40UIViewControllerInteractiveTransitioning", "updateInteractiveTransition"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "dissmissInteractiveTransition"]
+- !private ["PSo37UIViewControllerTransitioningDelegate", "updateInteractiveTransition"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "addGestureRecognizer"]
+- !private ["PSs12_Reflectable", "backgroundColor"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- !private "C17ElasticTransition17EdgePanTransition"
+- !private "C17ElasticTransition17ElasticTransition"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C21ElasticTransitionDemo18MenuViewController"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSs13OptionSetType"
+- !private "PSs16RawRepresentable"
+- !private "V10ObjectiveC8Selector"
+- !private "PSs14SetAlgebraType"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo19UIGestureRecognizer"
+- !private "PSo27UIGestureRecognizerDelegate"
+- !private "OSC24UIGestureRecognizerState"
+- !private "PSo30UINavigationControllerDelegate"
+- "CSo22UIPanGestureRecognizer"
+- !private "VSC10UIRectEdge"
+- "CSo11UIResponder"
+- "CSo32UIScreenEdgePanGestureRecognizer"
+- "PSo16UIStateRestoring"
+- !private "OSC16UIStatusBarStyle"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSo37UIViewControllerAnimatedTransitioning"
+- !private "PSo40UIViewControllerInteractiveTransitioning"
+- !private "PSo37UIViewControllerTransitioningDelegate"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Modules/ElasticTransition.swiftmodule/arm64.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Headers/ElasticTransition-Swift.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Headers/ElasticTransition-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Modules/module.modulemap"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Modules/MotionAnimation.swiftmodule/arm64.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Headers/MotionAnimation-Swift.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Headers/MotionAnimation-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Modules/module.modulemap"
+interface-hash: "ad38c589db00e24e9aa985127645b18c"

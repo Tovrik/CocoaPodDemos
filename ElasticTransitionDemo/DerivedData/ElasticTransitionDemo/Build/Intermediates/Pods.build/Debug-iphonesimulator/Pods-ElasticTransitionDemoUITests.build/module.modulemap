@@ -1,0 +1,6 @@
+framework module Pods_ElasticTransitionDemoUITests {
+  umbrella header "Pods-ElasticTransitionDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+ const unsigned char Pods_ElasticTransitionDemoVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:Pods_ElasticTransitionDemo  PROJECT:Pods-1" "\n"; const double Pods_ElasticTransitionDemoVersionNumber __attribute__ ((used)) = (double)1.;

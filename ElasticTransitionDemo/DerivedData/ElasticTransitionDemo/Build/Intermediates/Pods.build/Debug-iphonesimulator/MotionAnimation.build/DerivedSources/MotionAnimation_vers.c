@@ -1,0 +1,1 @@
+ const unsigned char MotionAnimationVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:MotionAnimation  PROJECT:Pods-1" "\n"; const double MotionAnimationVersionNumber __attribute__ ((used)) = (double)1.;

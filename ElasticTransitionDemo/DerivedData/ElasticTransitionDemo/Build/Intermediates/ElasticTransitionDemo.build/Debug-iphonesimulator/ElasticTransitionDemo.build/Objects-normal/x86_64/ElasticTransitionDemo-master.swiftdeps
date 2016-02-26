@@ -1,0 +1,8 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "f6f9e2aa7e663031049241498cec7adc"
+build_time: [509834611, 405838000]
+inputs:
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/ElasticTransitionDemo/InitialViewController.swift": [509834250, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/ElasticTransitionDemo/SettingsViewController.swift": [509834609, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/ElasticTransitionDemo/MenuViewController.swift": [509834260, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/ElasticTransitionDemo/AppDelegate.swift": [509830203, 0]

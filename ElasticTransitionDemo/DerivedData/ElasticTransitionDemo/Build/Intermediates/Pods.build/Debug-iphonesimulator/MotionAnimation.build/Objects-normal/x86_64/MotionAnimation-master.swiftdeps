@@ -1,0 +1,15 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b1f40eb1c46fccdb370862d3e8540389"
+build_time: [509606951, 558405000]
+inputs:
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/MotionAnimationPropertyState.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/NSObject+MotionAnimation.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/time.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/LZPanGestureRecognizer.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/SpringValueAnimation.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/ValueAnimation.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/MotionAnimator.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/MotionAnimation.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/Types.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/CGPoint+Util.swift": [509606884, 0]
+  "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/MotionAnimation/MotionAnimation/NSTimer.swift": [509606884, 0]

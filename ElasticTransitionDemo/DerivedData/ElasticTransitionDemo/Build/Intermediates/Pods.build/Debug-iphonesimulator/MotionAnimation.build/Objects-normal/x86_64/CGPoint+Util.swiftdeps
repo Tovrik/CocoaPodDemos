@@ -1,0 +1,139 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "+"
+- "-"
+- "/"
+- "*"
+- "*"
+provides-nominal:
+provides-member:
+- ["V12CoreGraphics7CGFloat", ""]
+- ["VSC7CGPoint", ""]
+- ["V12CoreGraphics7CGFloat", "clamp"]
+- ["VSC7CGPoint", "translate"]
+- ["VSC7CGPoint", "transform"]
+- ["VSC7CGPoint", "distance"]
+provides-dynamic-lookup:
+depends-top-level:
+- "CGFloat"
+- "/"
+- "CGAffineTransform"
+- !private "pow"
+- "CGPoint"
+- !private "sqrt"
+- !private "FloatLiteralType"
+- !private "<"
+- !private "CGPointApplyAffineTransform"
+- !private "IntegerLiteralType"
+- "*"
+- !private ">"
+- !private "CGPointMake"
+- "-"
+- "+"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["PSs16AbsoluteValuable", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "CGFloat"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "clamp"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC7CGPoint", "CGAffineTransform"]
+- ["VSC7CGPoint", "CGFloat"]
+- ["VSC7CGPoint", "CGPoint"]
+- !private ["VSC7CGPoint", "CGPointApplyAffineTransform"]
+- !private ["VSC7CGPoint", "CGPointMake"]
+- ["VSC7CGPoint", "distance"]
+- !private ["VSC7CGPoint", "pow"]
+- !private ["VSC7CGPoint", "sqrt"]
+- ["VSC7CGPoint", "transform"]
+- ["VSC7CGPoint", "translate"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "Stride"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "Stride"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Stride"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "CGPointApplyAffineTransform"]
+- !private ["PSs9Equatable", "CGPointMake"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "Stride"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "pow"]
+- !private ["PSs9Equatable", "sqrt"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs23FloatLiteralConvertible", "Stride"]
+- !private ["PSs17FloatingPointType", "IntegerLiteralType"]
+- !private ["PSs17FloatingPointType", "Stride"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "Stride"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Stride"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Stride"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["PSs19_CVarArgAlignedType", "Stride"]
+- !private ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "CGPointApplyAffineTransform"]
+- !private ["PSs12_Reflectable", "CGPointMake"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "pow"]
+- !private ["PSs12_Reflectable", "sqrt"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Stride"]
+depends-nominal:
+- !private "PSs16AbsoluteValuable"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- !private "PSs11CVarArgType"
+- !private "PSs10Comparable"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- !private "PSs23FloatLiteralConvertible"
+- !private "PSs17FloatingPointType"
+- !private "PSs8Hashable"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs19_CVarArgAlignedType"
+- !private "PSs22_CVarArgPassedAsDouble"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/MotionAnimation/MotionAnimation-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MotionAnimation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "521dcd02aa86fa8130c3e41716f7b38f"

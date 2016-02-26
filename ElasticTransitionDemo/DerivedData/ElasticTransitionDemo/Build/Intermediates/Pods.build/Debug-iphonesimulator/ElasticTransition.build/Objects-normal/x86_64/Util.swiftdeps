@@ -1,0 +1,270 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "\u03C0"
+- "Edge"
+- "DynamicItem"
+provides-nominal:
+- "O17ElasticTransition4Edge"
+- "C17ElasticTransition11DynamicItem"
+provides-member:
+- ["O17ElasticTransition4Edge", ""]
+- ["VSC7CGPoint", ""]
+- ["C17ElasticTransition11DynamicItem", ""]
+- ["VSC7CGPoint", "translate"]
+- ["VSC7CGPoint", "transform"]
+- ["VSC7CGPoint", "distance"]
+provides-dynamic-lookup:
+- "center"
+depends-top-level:
+- !private "CGPointApplyAffineTransform"
+- "\u03C0"
+- !private "sqrt"
+- !private "+"
+- "Edge"
+- !private "pow"
+- "CGPoint"
+- "CGPointZero"
+- "CGFloat"
+- "CGAffineTransform"
+- "NSObject"
+- "M_PI"
+- "DynamicItem"
+- !private "CGPointMake"
+- !private "StringLiteralType"
+- "UIRectEdge"
+- "=="
+- !private "-"
+depends-member:
+- !private ["PSs16AbsoluteValuable", "IntegerLiteralType"]
+- !private ["PSs16AbsoluteValuable", "Stride"]
+- ["PSs16AbsoluteValuable", "init"]
+- ["PSs9AnyObject", "CGPointZero"]
+- ["PSs9AnyObject", "center"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Bottom"]
+- !private ["PSs23ArrayLiteralConvertible", "Left"]
+- !private ["PSs23ArrayLiteralConvertible", "Right"]
+- !private ["PSs23ArrayLiteralConvertible", "Top"]
+- !private ["PSs22BidirectionalIndexType", "hashValue"]
+- !private ["PSs21BitwiseOperationsType", "hashValue"]
+- !private ["V12CoreGraphics7CGFloat", "IntegerLiteralType"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC7CGPoint", "CGAffineTransform"]
+- ["VSC7CGPoint", "CGFloat"]
+- ["VSC7CGPoint", "CGPoint"]
+- !private ["VSC7CGPoint", "CGPointApplyAffineTransform"]
+- !private ["VSC7CGPoint", "CGPointMake"]
+- ["VSC7CGPoint", "distance"]
+- !private ["VSC7CGPoint", "pow"]
+- !private ["VSC7CGPoint", "sqrt"]
+- ["VSC7CGPoint", "transform"]
+- ["VSC7CGPoint", "translate"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["PSs11CVarArgType", "CGPointZero"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "Stride"]
+- ["PSs11CVarArgType", "center"]
+- !private ["PSs11CVarArgType", "hashValue"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "Stride"]
+- !private ["PSs10Comparable", "hashValue"]
+- ["PSs10Comparable", "init"]
+- ["PSs23CustomStringConvertible", "CGPointZero"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "Stride"]
+- ["PSs23CustomStringConvertible", "center"]
+- !private ["PSs23CustomStringConvertible", "hashValue"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- ["C17ElasticTransition11DynamicItem", "CGPoint"]
+- ["C17ElasticTransition11DynamicItem", "CGPointZero"]
+- ["C17ElasticTransition11DynamicItem", "center"]
+- ["C17ElasticTransition11DynamicItem", "deinit"]
+- ["C17ElasticTransition11DynamicItem", "init"]
+- ["O17ElasticTransition4Edge", "Bottom"]
+- ["O17ElasticTransition4Edge", "Edge"]
+- ["O17ElasticTransition4Edge", "Left"]
+- ["O17ElasticTransition4Edge", "Right"]
+- ["O17ElasticTransition4Edge", "Top"]
+- ["O17ElasticTransition4Edge", "UIRectEdge"]
+- ["O17ElasticTransition4Edge", "deinit"]
+- ["O17ElasticTransition4Edge", "hashValue"]
+- ["O17ElasticTransition4Edge", "opposite"]
+- ["O17ElasticTransition4Edge", "toUIRectEdge"]
+- ["PSs9Equatable", "Bottom"]
+- !private ["PSs9Equatable", "CGPointApplyAffineTransform"]
+- !private ["PSs9Equatable", "CGPointMake"]
+- ["PSs9Equatable", "CGPointZero"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- ["PSs9Equatable", "Left"]
+- ["PSs9Equatable", "Right"]
+- !private ["PSs9Equatable", "Stride"]
+- ["PSs9Equatable", "Top"]
+- ["PSs9Equatable", "center"]
+- ["PSs9Equatable", "hashValue"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "pow"]
+- !private ["PSs9Equatable", "sqrt"]
+- !private ["PSs9Equatable", "x"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", ""]
+- !private ["PSs23FloatLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs23FloatLiteralConvertible", "Stride"]
+- ["PSs23FloatLiteralConvertible", "init"]
+- !private ["PSs17FloatingPointType", "IntegerLiteralType"]
+- !private ["PSs17FloatingPointType", "Stride"]
+- ["PSs17FloatingPointType", "init"]
+- !private ["PSs16ForwardIndexType", "hashValue"]
+- ["PSs8Hashable", "Bottom"]
+- ["PSs8Hashable", "CGPointZero"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- ["PSs8Hashable", "Left"]
+- ["PSs8Hashable", "Right"]
+- !private ["PSs8Hashable", "Stride"]
+- ["PSs8Hashable", "Top"]
+- ["PSs8Hashable", "center"]
+- ["PSs8Hashable", "hashValue"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- !private ["Si", "hashValue"]
+- !private ["PSs21IntegerArithmeticType", "hashValue"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Stride"]
+- !private ["PSs25IntegerLiteralConvertible", "hashValue"]
+- ["PSs25IntegerLiteralConvertible", "init"]
+- !private ["PSs11IntegerType", "hashValue"]
+- !private ["PSs14MirrorPathType", "hashValue"]
+- ["CSo8NSObject", "CGPoint"]
+- ["CSo8NSObject", "CGPointZero"]
+- ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", ""]
+- ["PSo16NSObjectProtocol", "CGPointZero"]
+- ["PSo16NSObjectProtocol", "center"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs13OptionSetType", "Bottom"]
+- !private ["PSs13OptionSetType", "Left"]
+- !private ["PSs13OptionSetType", "Right"]
+- !private ["PSs13OptionSetType", "Top"]
+- !private ["PSs21RandomAccessIndexType", "hashValue"]
+- !private ["PSs16RawRepresentable", "Bottom"]
+- !private ["PSs16RawRepresentable", "Left"]
+- !private ["PSs16RawRepresentable", "Right"]
+- !private ["PSs16RawRepresentable", "Top"]
+- !private ["PSs14SetAlgebraType", "Bottom"]
+- !private ["PSs14SetAlgebraType", "Left"]
+- !private ["PSs14SetAlgebraType", "Right"]
+- !private ["PSs14SetAlgebraType", "Top"]
+- !private ["PSs17SignedIntegerType", "hashValue"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Stride"]
+- !private ["PSs16SignedNumberType", "hashValue"]
+- ["PSs16SignedNumberType", "init"]
+- !private ["VSs12StaticString", "deinit"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Stride"]
+- !private ["PSs10Strideable", "hashValue"]
+- ["PSs10Strideable", "init"]
+- !private ["VSC10UIRectEdge", "Bottom"]
+- !private ["VSC10UIRectEdge", "Left"]
+- !private ["VSC10UIRectEdge", "Right"]
+- !private ["VSC10UIRectEdge", "Top"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "hashValue"]
+- !private ["PSs19_CVarArgAlignedType", "IntegerLiteralType"]
+- !private ["PSs19_CVarArgAlignedType", "Stride"]
+- ["PSs19_CVarArgAlignedType", "init"]
+- !private ["PSs22_CVarArgPassedAsDouble", "IntegerLiteralType"]
+- !private ["PSs22_CVarArgPassedAsDouble", "Stride"]
+- ["PSs22_CVarArgPassedAsDouble", "init"]
+- !private ["PSs14_Incrementable", "hashValue"]
+- !private ["PSs22_IntegerArithmeticType", "hashValue"]
+- !private ["PSs12_IntegerType", "hashValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Stride"]
+- !private ["PSs21_ObjectiveCBridgeable", "hashValue"]
+- ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs22_RandomAccessAmbiguity", "hashValue"]
+- !private ["PSs12_Reflectable", "CGPointApplyAffineTransform"]
+- !private ["PSs12_Reflectable", "CGPointMake"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Stride"]
+- !private ["PSs12_Reflectable", "hashValue"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "pow"]
+- !private ["PSs12_Reflectable", "sqrt"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- !private ["PSs18_SignedIntegerType", "hashValue"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Stride"]
+- !private ["PSs11_Strideable", "hashValue"]
+- ["PSs11_Strideable", "init"]
+depends-nominal:
+- "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "PSs11CVarArgType"
+- "PSs10Comparable"
+- "PSs23CustomStringConvertible"
+- "C17ElasticTransition11DynamicItem"
+- "O17ElasticTransition4Edge"
+- "PSs9Equatable"
+- "PSs23FloatLiteralConvertible"
+- "PSs17FloatingPointType"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs13OptionSetType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs16RawRepresentable"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- "PSs16SignedNumberType"
+- !private "VSs12StaticString"
+- "PSs10Strideable"
+- !private "VSC10UIRectEdge"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- "PSs19_CVarArgAlignedType"
+- "PSs22_CVarArgPassedAsDouble"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- "PSs21_ObjectiveCBridgeable"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/ElasticTransition/ElasticTransition-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/ElasticTransition.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphonesimulator/MotionAnimation.framework/Modules/MotionAnimation.swiftmodule/x86_64.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphonesimulator/MotionAnimation.framework/Headers/MotionAnimation-Swift.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/MotionAnimation/MotionAnimation-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MotionAnimation.build/module.modulemap"
+interface-hash: "b3795994175d9d500b6f2953258f4660"

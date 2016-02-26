@@ -1,0 +1,1057 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046BC8DDAF8A8BB04BB275081499211A /* MotionAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */; };
+		0B79D6A122BA5D96308BE799666BD0AF /* SpringValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */; };
+		0E33A713A2975DA208F4BB3CD255EA8B /* ValueAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */; };
+		33436C65FBE70445EFF8092760D02BE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */; };
+		347AD8E02BA3A80B19E3C9D6D4F55F9D /* ElasticShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */; };
+		3BEBCB1A5859F504D38C892E6452B902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */; };
+		3C3D5332280709A393C5DB6F8EBCD23B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */; };
+		3CE15963BF5791059FD2391BCD6F562B /* EdgePanTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */; };
+		43212151D43EFA9DBC72E07C521B3F92 /* Pods-ElasticTransitionDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5702C60D0EA37E163B933DD3DBBF63A9 /* Pods-ElasticTransitionDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53283901B37B1015237BC27240056ABD /* LZPanGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */; };
+		5878647AE10E937887A73B746F611183 /* MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */; };
+		6BE89484358E2D950BC60C3C3EDF3B99 /* ElasticTransition-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7480CCD667CD87C02FBF7E744402B0BB /* Pods-ElasticTransitionDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9340B03BECBA171132A562B3248A99 /* Pods-ElasticTransitionDemoTests-dummy.m */; };
+		76F5E9C262F93E81EA9A9DA9601B16C5 /* MotionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */; };
+		7F9A0D5397C36FAC9B336155D69C99DC /* MotionAnimation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */; };
+		8775B2D2A241B7FC56ABCE804BCBAEE1 /* NSTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */; };
+		8AA1BF8F7C3D13032B1D6D9ED6F04887 /* time.swift in Sources */ = {isa = PBXBuildFile; fileRef = 572666311971F13A8B5BE1FBB8783BFB /* time.swift */; };
+		8BD62544AA0AB92B24C0FBACC43008E7 /* MotionAnimationPropertyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */; };
+		91632F5A27F2AE88950E6927347C9E75 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64161486EDA1141C572DB546CE54F084 /* Util.swift */; };
+		99B2B4490DCE2940315B03BF36CD1E41 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CFC34B735E923A5B2E77D47889F6CA /* UIKit.framework */; };
+		B5FCAE16B25AFFFFF39D9B746021335C /* MotionAnimation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C275F4C7CD5378328FFA449716113DC3 /* ElasticTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */; };
+		CA74EEB0A4E2BA0152C772D1EAD12890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */; };
+		CADEA02125CE0E04AD9C49325D4C9CE6 /* Pods-ElasticTransitionDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A3804217FF467B5DDE92FC639AA536 /* Pods-ElasticTransitionDemo-dummy.m */; };
+		D13D394C8521523DDA79B525C0FF8E52 /* Pods-ElasticTransitionDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 404F6A56FD65330C6C7465ABE5641D71 /* Pods-ElasticTransitionDemoUITests-dummy.m */; };
+		D4847674A3292383DFB1EF4FB8E01FB8 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */; };
+		DD93F414390561856CF7D70B246D0979 /* Pods-ElasticTransitionDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00ADA2B02AF69414DD0F8CBF850F6E74 /* Pods-ElasticTransitionDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE82917D35CE24B1D027208EA8F2E89E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CFC34B735E923A5B2E77D47889F6CA /* UIKit.framework */; };
+		E2370A8A8DE378F3B3B41F9C9BABE89E /* NSObject+MotionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */; };
+		EFCA90865F9E157F54F7CAD149FAD603 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */; };
+		F31A236450EE6B1607BB62FB9621C07C /* CGPoint+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */; };
+		F4246BF7E41C4C68645E35782C68C055 /* ElasticTransition-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */; };
+		FA3D4D0441AB1D396E11E9CAFA9FCABD /* Pods-ElasticTransitionDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F711DF838F6F27678ABB649AEFBB28A /* Pods-ElasticTransitionDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1984738A24E7E681D9BA4AFA8DBC584B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C9674A8BF970C51C460F3C31A82CF1B;
+			remoteInfo = ElasticTransition;
+		};
+		9C1379C0B0BD63BE48067F0470AF5434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE510C33B653D0D39E8015461CA777;
+			remoteInfo = MotionAnimation;
+		};
+		E6E87040CB5740903485A1CA2F142EEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20EE510C33B653D0D39E8015461CA777;
+			remoteInfo = MotionAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00ADA2B02AF69414DD0F8CBF850F6E74 /* Pods-ElasticTransitionDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElasticTransitionDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LZPanGestureRecognizer.swift; path = MotionAnimation/LZPanGestureRecognizer.swift; sourceTree = "<group>"; };
+		07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MotionAnimation-dummy.m"; sourceTree = "<group>"; };
+		0CA6E6046776D2FB81E4FFFAF718467B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F49F71F1168C4DDA096D0D8276593E9 /* MotionAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MotionAnimation.modulemap; sourceTree = "<group>"; };
+		0F7E82EBC0EDA965C9A2A86800F40CDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+MotionAnimation.swift"; path = "MotionAnimation/NSObject+MotionAnimation.swift"; sourceTree = "<group>"; };
+		1B46646352EE9D909BD9D17252E1F650 /* ElasticTransition.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ElasticTransition.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E346DE8EBE85EEC70CF10467D777638 /* Pods-ElasticTransitionDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElasticTransitionDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Types.swift; path = MotionAnimation/Types.swift; sourceTree = "<group>"; };
+		31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticTransition.swift; path = ElasticTransition/ElasticTransition.swift; sourceTree = "<group>"; };
+		33DC92CB496F3941419800FF35032407 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7F15C076BB1841F1468250D5AC706B /* Pods-ElasticTransitionDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3BB9E1DDED8C350BD5F1E49F8D120203 /* Pods-ElasticTransitionDemoUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemoUITests-resources.sh"; sourceTree = "<group>"; };
+		3CD42666BA2866B5C658E88F63E63935 /* Pods-ElasticTransitionDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		404F6A56FD65330C6C7465ABE5641D71 /* Pods-ElasticTransitionDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElasticTransitionDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimer.swift; path = MotionAnimation/NSTimer.swift; sourceTree = "<group>"; };
+		47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ElasticShapeLayer.swift; path = ElasticTransition/ElasticShapeLayer.swift; sourceTree = "<group>"; };
+		4F711DF838F6F27678ABB649AEFBB28A /* Pods-ElasticTransitionDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElasticTransitionDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		50FA9FF8DF65959B64A2C4590D99AA45 /* Pods-ElasticTransitionDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElasticTransitionDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5419ACF5288AA34103EA6BB819C27560 /* Pods-ElasticTransitionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ElasticTransition.xcconfig; sourceTree = "<group>"; };
+		5702C60D0EA37E163B933DD3DBBF63A9 /* Pods-ElasticTransitionDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ElasticTransitionDemo-umbrella.h"; sourceTree = "<group>"; };
+		572666311971F13A8B5BE1FBB8783BFB /* time.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = time.swift; path = MotionAnimation/time.swift; sourceTree = "<group>"; };
+		59563433635FA2B3418C5B84875D0E4C /* Pods-ElasticTransitionDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemo-resources.sh"; sourceTree = "<group>"; };
+		5C8BBF5AF71DECD093B02C1E715B9752 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6218C04E31BF2B7AEE024E4A799EDE49 /* Pods-ElasticTransitionDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		64161486EDA1141C572DB546CE54F084 /* Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Util.swift; path = ElasticTransition/Util.swift; sourceTree = "<group>"; };
+		686EBE2F4B6AE08BABAF45ABBC15DEAC /* Pods-ElasticTransitionDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgePanTransition.swift; path = ElasticTransition/EdgePanTransition.swift; sourceTree = "<group>"; };
+		6B2CD9D01F916A87C8C8ABD59F4F7896 /* Pods-ElasticTransitionDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6C9340B03BECBA171132A562B3248A99 /* Pods-ElasticTransitionDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElasticTransitionDemoTests-dummy.m"; sourceTree = "<group>"; };
+		702F360A50F86299585685C600CAC762 /* Pods-ElasticTransitionDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemo-frameworks.sh"; sourceTree = "<group>"; };
+		7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ValueAnimation.swift; path = MotionAnimation/ValueAnimation.swift; sourceTree = "<group>"; };
+		81EEACA6B1681C7F6E1848B4DC05B356 /* Pods-ElasticTransitionDemoTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemoTests-resources.sh"; sourceTree = "<group>"; };
+		87A16AD2FEEA459964EC3D951495B7BC /* Pods-ElasticTransitionDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ElasticTransitionDemoTests.modulemap"; sourceTree = "<group>"; };
+		88A3804217FF467B5DDE92FC639AA536 /* Pods-ElasticTransitionDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ElasticTransitionDemo-dummy.m"; sourceTree = "<group>"; };
+		8A072E477DAFC9D3838C966CB45ACC0C /* Pods-ElasticTransitionDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ElasticTransitionDemoUITests.modulemap"; sourceTree = "<group>"; };
+		92B4508D387DF7C6CA657FC9C5BD31B2 /* ElasticTransition-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-prefix.pch"; sourceTree = "<group>"; };
+		9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Util.swift"; path = "MotionAnimation/CGPoint+Util.swift"; sourceTree = "<group>"; };
+		9D4CF385355BCEBD29A97C9C2ED00887 /* Pods_ElasticTransitionDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElasticTransitionDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MotionAnimation.xcconfig; sourceTree = "<group>"; };
+		A0A95E705B5ED0E2498A71CB1471E77A /* Pods-ElasticTransitionDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElasticTransitionDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A930DE13360D084B3338840C7407FDB5 /* Pods-ElasticTransitionDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElasticTransitionDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimator.swift; path = MotionAnimation/MotionAnimator.swift; sourceTree = "<group>"; };
+		B31C16C89F38333AAD3C261B66D13424 /* ElasticTransition.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ElasticTransition.modulemap; sourceTree = "<group>"; };
+		B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B354982316F35B0BDDEA13998AA8AE22 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpringValueAnimation.swift; path = MotionAnimation/SpringValueAnimation.swift; sourceTree = "<group>"; };
+		B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-umbrella.h"; sourceTree = "<group>"; };
+		B8CFC34B735E923A5B2E77D47889F6CA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ElasticTransition-dummy.m"; sourceTree = "<group>"; };
+		C6E5E1B2C7969CC4330164F8D0F59C02 /* Pods-ElasticTransitionDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ElasticTransitionDemo.modulemap"; sourceTree = "<group>"; };
+		C9FA82FAAFEF9E92B84C793C9166D3D4 /* MotionAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MotionAnimation-prefix.pch"; sourceTree = "<group>"; };
+		CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ElasticTransition-umbrella.h"; sourceTree = "<group>"; };
+		D46FB96E8229AF7C5C82776947B209B7 /* MotionAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MotionAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A789FD4DD80D40A9C3B47DBAE89ACF /* Pods-ElasticTransitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ElasticTransitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D9E986292E65B936FB2E7B5FEA121F78 /* Pods-ElasticTransitionDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ElasticTransitionDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimationPropertyState.swift; path = MotionAnimation/MotionAnimationPropertyState.swift; sourceTree = "<group>"; };
+		E5E0290F66E0942BA62D8E53C313B299 /* Pods-ElasticTransitionDemoTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ElasticTransitionDemoTests-frameworks.sh"; sourceTree = "<group>"; };
+		E5E559174DB479E4D74AFEEFDD2463B4 /* Pods-ElasticTransitionDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ElasticTransitionDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MotionAnimation.swift; path = MotionAnimation/MotionAnimation.swift; sourceTree = "<group>"; };
+		F198DBAF76F1CABA86CB10CDDB22766C /* Pods_ElasticTransitionDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElasticTransitionDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F51775980719C7C2EE85EE5B0B73D5C5 /* Pods_ElasticTransitionDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ElasticTransitionDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F5A5B0B12714E8FFA9C77CF53F6A822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3D5332280709A393C5DB6F8EBCD23B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22170695650BE2EA15ECB5423C3ED680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEBCB1A5859F504D38C892E6452B902 /* Foundation.framework in Frameworks */,
+				046BC8DDAF8A8BB04BB275081499211A /* MotionAnimation.framework in Frameworks */,
+				DE82917D35CE24B1D027208EA8F2E89E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C03C4051FE4039D5D0A73C797D8E488 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33436C65FBE70445EFF8092760D02BE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C7DBBFC0EF3D53D56FE13C2F203734F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFCA90865F9E157F54F7CAD149FAD603 /* Foundation.framework in Frameworks */,
+				99B2B4490DCE2940315B03BF36CD1E41 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BBE5372F018CFAB41A1C0C61C4A40E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA74EEB0A4E2BA0152C772D1EAD12890 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CF2E976D37B765D4CB9E1D5EA06D42B /* Pods-ElasticTransitionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5C8BBF5AF71DECD093B02C1E715B9752 /* Info.plist */,
+				C6E5E1B2C7969CC4330164F8D0F59C02 /* Pods-ElasticTransitionDemo.modulemap */,
+				A930DE13360D084B3338840C7407FDB5 /* Pods-ElasticTransitionDemo-acknowledgements.markdown */,
+				D9E986292E65B936FB2E7B5FEA121F78 /* Pods-ElasticTransitionDemo-acknowledgements.plist */,
+				88A3804217FF467B5DDE92FC639AA536 /* Pods-ElasticTransitionDemo-dummy.m */,
+				702F360A50F86299585685C600CAC762 /* Pods-ElasticTransitionDemo-frameworks.sh */,
+				59563433635FA2B3418C5B84875D0E4C /* Pods-ElasticTransitionDemo-resources.sh */,
+				5702C60D0EA37E163B933DD3DBBF63A9 /* Pods-ElasticTransitionDemo-umbrella.h */,
+				D7A789FD4DD80D40A9C3B47DBAE89ACF /* Pods-ElasticTransitionDemo.debug.xcconfig */,
+				5419ACF5288AA34103EA6BB819C27560 /* Pods-ElasticTransitionDemo.release.xcconfig */,
+			);
+			name = "Pods-ElasticTransitionDemo";
+			path = "Target Support Files/Pods-ElasticTransitionDemo";
+			sourceTree = "<group>";
+		};
+		2F39E4102D6F6D07E813CF98FDF4C510 /* MotionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				9AFBA7DF0C0063B7EE506EEBD85FA3DF /* CGPoint+Util.swift */,
+				03245D89950D2C9E29DBD52D80F4A661 /* LZPanGestureRecognizer.swift */,
+				EF1A5FCB33DF5F72356785DD1658963E /* MotionAnimation.swift */,
+				E0A9A4D32BBD92D83F99649C22A92B99 /* MotionAnimationPropertyState.swift */,
+				AD8E7D1F52D3A7B20F0D354EB5132387 /* MotionAnimator.swift */,
+				129002B80332EF2E0DEFE34CCBA95A7A /* NSObject+MotionAnimation.swift */,
+				4360272FF1FF922FD6D818098CE38186 /* NSTimer.swift */,
+				B3C4B82312229B31F3090192C3D6807F /* SpringValueAnimation.swift */,
+				572666311971F13A8B5BE1FBB8783BFB /* time.swift */,
+				302E29F7EB32FC16EC8AE59E3CEAC1F3 /* Types.swift */,
+				7D7F66215808AC02DECEE25FB9003B0A /* ValueAnimation.swift */,
+				FFBFF4C84D578E276D176B2E5D5445C5 /* Support Files */,
+			);
+			path = MotionAnimation;
+			sourceTree = "<group>";
+		};
+		4B64C1DC751DDAD4DDE46FD9868A3ED4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				663913CDBADBFBA34BB4499B02013908 /* ElasticTransition */,
+				2F39E4102D6F6D07E813CF98FDF4C510 /* MotionAnimation */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		57A1513E5C7111D96F5167CEA19C72AA /* Pods-ElasticTransitionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33DC92CB496F3941419800FF35032407 /* Info.plist */,
+				8A072E477DAFC9D3838C966CB45ACC0C /* Pods-ElasticTransitionDemoUITests.modulemap */,
+				E5E559174DB479E4D74AFEEFDD2463B4 /* Pods-ElasticTransitionDemoUITests-acknowledgements.markdown */,
+				A0A95E705B5ED0E2498A71CB1471E77A /* Pods-ElasticTransitionDemoUITests-acknowledgements.plist */,
+				404F6A56FD65330C6C7465ABE5641D71 /* Pods-ElasticTransitionDemoUITests-dummy.m */,
+				3CD42666BA2866B5C658E88F63E63935 /* Pods-ElasticTransitionDemoUITests-frameworks.sh */,
+				3BB9E1DDED8C350BD5F1E49F8D120203 /* Pods-ElasticTransitionDemoUITests-resources.sh */,
+				4F711DF838F6F27678ABB649AEFBB28A /* Pods-ElasticTransitionDemoUITests-umbrella.h */,
+				686EBE2F4B6AE08BABAF45ABBC15DEAC /* Pods-ElasticTransitionDemoUITests.debug.xcconfig */,
+				6B2CD9D01F916A87C8C8ABD59F4F7896 /* Pods-ElasticTransitionDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-ElasticTransitionDemoUITests";
+			path = "Target Support Files/Pods-ElasticTransitionDemoUITests";
+			sourceTree = "<group>";
+		};
+		618797BD87E0BCFB59677C2C6F1976C4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B31C16C89F38333AAD3C261B66D13424 /* ElasticTransition.modulemap */,
+				54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */,
+				C284816F502A8B6D56C509D16E3D3733 /* ElasticTransition-dummy.m */,
+				92B4508D387DF7C6CA657FC9C5BD31B2 /* ElasticTransition-prefix.pch */,
+				CA8417D1ACF896B3451C7CB667F2F1DD /* ElasticTransition-umbrella.h */,
+				0CA6E6046776D2FB81E4FFFAF718467B /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ElasticTransition";
+			sourceTree = "<group>";
+		};
+		663913CDBADBFBA34BB4499B02013908 /* ElasticTransition */ = {
+			isa = PBXGroup;
+			children = (
+				6AB1204410EE102CAB125C6C51C5C35E /* EdgePanTransition.swift */,
+				47BED132CF0BA25424F098D682C688D3 /* ElasticShapeLayer.swift */,
+				31D12C5D6FE8BD0C1008015C1FF1319B /* ElasticTransition.swift */,
+				64161486EDA1141C572DB546CE54F084 /* Util.swift */,
+				618797BD87E0BCFB59677C2C6F1976C4 /* Support Files */,
+			);
+			path = ElasticTransition;
+			sourceTree = "<group>";
+		};
+		692C7DF8E8D140C7087DE32BDF740114 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3FF71DDCC46EEA56D48BBE1305D77073 /* Foundation.framework */,
+				B8CFC34B735E923A5B2E77D47889F6CA /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E72E37E64D6919D724EC0AF493AE41F /* Pods-ElasticTransitionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0F7E82EBC0EDA965C9A2A86800F40CDA /* Info.plist */,
+				87A16AD2FEEA459964EC3D951495B7BC /* Pods-ElasticTransitionDemoTests.modulemap */,
+				1E346DE8EBE85EEC70CF10467D777638 /* Pods-ElasticTransitionDemoTests-acknowledgements.markdown */,
+				50FA9FF8DF65959B64A2C4590D99AA45 /* Pods-ElasticTransitionDemoTests-acknowledgements.plist */,
+				6C9340B03BECBA171132A562B3248A99 /* Pods-ElasticTransitionDemoTests-dummy.m */,
+				E5E0290F66E0942BA62D8E53C313B299 /* Pods-ElasticTransitionDemoTests-frameworks.sh */,
+				81EEACA6B1681C7F6E1848B4DC05B356 /* Pods-ElasticTransitionDemoTests-resources.sh */,
+				00ADA2B02AF69414DD0F8CBF850F6E74 /* Pods-ElasticTransitionDemoTests-umbrella.h */,
+				6218C04E31BF2B7AEE024E4A799EDE49 /* Pods-ElasticTransitionDemoTests.debug.xcconfig */,
+				3B7F15C076BB1841F1468250D5AC706B /* Pods-ElasticTransitionDemoTests.release.xcconfig */,
+			);
+			name = "Pods-ElasticTransitionDemoTests";
+			path = "Target Support Files/Pods-ElasticTransitionDemoTests";
+			sourceTree = "<group>";
+		};
+		7AA018DB43037FAF28124DC9F1EAE091 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0CF2E976D37B765D4CB9E1D5EA06D42B /* Pods-ElasticTransitionDemo */,
+				6E72E37E64D6919D724EC0AF493AE41F /* Pods-ElasticTransitionDemoTests */,
+				57A1513E5C7111D96F5167CEA19C72AA /* Pods-ElasticTransitionDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				CB7AE1D83928E889E062A217743ABE6E /* Frameworks */,
+				4B64C1DC751DDAD4DDE46FD9868A3ED4 /* Pods */,
+				D6F11291A53107C0AA1EEE57A390286D /* Products */,
+				7AA018DB43037FAF28124DC9F1EAE091 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CB7AE1D83928E889E062A217743ABE6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32399A8D44DBED056F34A76533E4645 /* MotionAnimation.framework */,
+				692C7DF8E8D140C7087DE32BDF740114 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6F11291A53107C0AA1EEE57A390286D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B46646352EE9D909BD9D17252E1F650 /* ElasticTransition.framework */,
+				D46FB96E8229AF7C5C82776947B209B7 /* MotionAnimation.framework */,
+				F198DBAF76F1CABA86CB10CDDB22766C /* Pods_ElasticTransitionDemo.framework */,
+				F51775980719C7C2EE85EE5B0B73D5C5 /* Pods_ElasticTransitionDemoTests.framework */,
+				9D4CF385355BCEBD29A97C9C2ED00887 /* Pods_ElasticTransitionDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBFF4C84D578E276D176B2E5D5445C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B354982316F35B0BDDEA13998AA8AE22 /* Info.plist */,
+				0F49F71F1168C4DDA096D0D8276593E9 /* MotionAnimation.modulemap */,
+				9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */,
+				07677E572015A22C532E9B7F367E84B2 /* MotionAnimation-dummy.m */,
+				C9FA82FAAFEF9E92B84C793C9166D3D4 /* MotionAnimation-prefix.pch */,
+				B6502CADB8DF07F7E82A316D8C7BF1C0 /* MotionAnimation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MotionAnimation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5052F21E4E108522EEDB4A253B99DB74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43212151D43EFA9DBC72E07C521B3F92 /* Pods-ElasticTransitionDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		736E05B2086E7065FD87E266FE41450E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE89484358E2D950BC60C3C3EDF3B99 /* ElasticTransition-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB276591E99E02E6FC6BDAD63311D34 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD93F414390561856CF7D70B246D0979 /* Pods-ElasticTransitionDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09670A8C309F2238EAFF7DA78993F42 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FCAE16B25AFFFFF39D9B746021335C /* MotionAnimation-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDB4D3F4A8E022CDF464E81E402E284 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA3D4D0441AB1D396E11E9CAFA9FCABD /* Pods-ElasticTransitionDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F1EB8210C8A48D91EB2586F7C7073DB /* Build configuration list for PBXNativeTarget "ElasticTransition" */;
+			buildPhases = (
+				C6C38DD00BE405DC35FED1C1677DF659 /* Sources */,
+				22170695650BE2EA15ECB5423C3ED680 /* Frameworks */,
+				736E05B2086E7065FD87E266FE41450E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21340074627E3BC6728CD4C54BC3BF59 /* PBXTargetDependency */,
+			);
+			name = ElasticTransition;
+			productName = ElasticTransition;
+			productReference = 1B46646352EE9D909BD9D17252E1F650 /* ElasticTransition.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C835B941F4EBBA3D45540C4EE9ED7B0 /* Build configuration list for PBXNativeTarget "MotionAnimation" */;
+			buildPhases = (
+				AB0DE51F65A8CBCA3E078AFD503DAF64 /* Sources */,
+				5C7DBBFC0EF3D53D56FE13C2F203734F /* Frameworks */,
+				B09670A8C309F2238EAFF7DA78993F42 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MotionAnimation;
+			productName = MotionAnimation;
+			productReference = D46FB96E8229AF7C5C82776947B209B7 /* MotionAnimation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		367A958F83D6A075962FCDD299AEC16D /* Pods-ElasticTransitionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1252DDFF9DAC44910B50531587736E96 /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemo" */;
+			buildPhases = (
+				E5A42A5C36FD2BC6482F4602562D6A49 /* Sources */,
+				0F5A5B0B12714E8FFA9C77CF53F6A822 /* Frameworks */,
+				5052F21E4E108522EEDB4A253B99DB74 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE5A4AECF54AB98DD327E23EBE35462 /* PBXTargetDependency */,
+				F7E4576D12BC98DFC57B0ECF3F30D388 /* PBXTargetDependency */,
+			);
+			name = "Pods-ElasticTransitionDemo";
+			productName = "Pods-ElasticTransitionDemo";
+			productReference = F198DBAF76F1CABA86CB10CDDB22766C /* Pods_ElasticTransitionDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		664E3036E5A050DEFBD31794979E10ED /* Pods-ElasticTransitionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DC8E7F6086751AE6E19D184847801A7 /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemoTests" */;
+			buildPhases = (
+				C454E380AFCD5107F0D1050C814E950D /* Sources */,
+				2C03C4051FE4039D5D0A73C797D8E488 /* Frameworks */,
+				9FB276591E99E02E6FC6BDAD63311D34 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ElasticTransitionDemoTests";
+			productName = "Pods-ElasticTransitionDemoTests";
+			productReference = F51775980719C7C2EE85EE5B0B73D5C5 /* Pods_ElasticTransitionDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A0A7702AE3E741A76FB8E551B6349DFE /* Pods-ElasticTransitionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1A858A2BB49F824ADD24259F03359C /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemoUITests" */;
+			buildPhases = (
+				319C86FC9C88EE664B6C6A643A8227E6 /* Sources */,
+				83BBE5372F018CFAB41A1C0C61C4A40E /* Frameworks */,
+				EDDB4D3F4A8E022CDF464E81E402E284 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ElasticTransitionDemoUITests";
+			productName = "Pods-ElasticTransitionDemoUITests";
+			productReference = 9D4CF385355BCEBD29A97C9C2ED00887 /* Pods_ElasticTransitionDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D6F11291A53107C0AA1EEE57A390286D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */,
+				20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */,
+				367A958F83D6A075962FCDD299AEC16D /* Pods-ElasticTransitionDemo */,
+				664E3036E5A050DEFBD31794979E10ED /* Pods-ElasticTransitionDemoTests */,
+				A0A7702AE3E741A76FB8E551B6349DFE /* Pods-ElasticTransitionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		319C86FC9C88EE664B6C6A643A8227E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13D394C8521523DDA79B525C0FF8E52 /* Pods-ElasticTransitionDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0DE51F65A8CBCA3E078AFD503DAF64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31A236450EE6B1607BB62FB9621C07C /* CGPoint+Util.swift in Sources */,
+				53283901B37B1015237BC27240056ABD /* LZPanGestureRecognizer.swift in Sources */,
+				7F9A0D5397C36FAC9B336155D69C99DC /* MotionAnimation-dummy.m in Sources */,
+				5878647AE10E937887A73B746F611183 /* MotionAnimation.swift in Sources */,
+				8BD62544AA0AB92B24C0FBACC43008E7 /* MotionAnimationPropertyState.swift in Sources */,
+				76F5E9C262F93E81EA9A9DA9601B16C5 /* MotionAnimator.swift in Sources */,
+				E2370A8A8DE378F3B3B41F9C9BABE89E /* NSObject+MotionAnimation.swift in Sources */,
+				8775B2D2A241B7FC56ABCE804BCBAEE1 /* NSTimer.swift in Sources */,
+				0B79D6A122BA5D96308BE799666BD0AF /* SpringValueAnimation.swift in Sources */,
+				8AA1BF8F7C3D13032B1D6D9ED6F04887 /* time.swift in Sources */,
+				D4847674A3292383DFB1EF4FB8E01FB8 /* Types.swift in Sources */,
+				0E33A713A2975DA208F4BB3CD255EA8B /* ValueAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C454E380AFCD5107F0D1050C814E950D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7480CCD667CD87C02FBF7E744402B0BB /* Pods-ElasticTransitionDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6C38DD00BE405DC35FED1C1677DF659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CE15963BF5791059FD2391BCD6F562B /* EdgePanTransition.swift in Sources */,
+				347AD8E02BA3A80B19E3C9D6D4F55F9D /* ElasticShapeLayer.swift in Sources */,
+				F4246BF7E41C4C68645E35782C68C055 /* ElasticTransition-dummy.m in Sources */,
+				C275F4C7CD5378328FFA449716113DC3 /* ElasticTransition.swift in Sources */,
+				91632F5A27F2AE88950E6927347C9E75 /* Util.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A42A5C36FD2BC6482F4602562D6A49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CADEA02125CE0E04AD9C49325D4C9CE6 /* Pods-ElasticTransitionDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21340074627E3BC6728CD4C54BC3BF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */;
+			targetProxy = E6E87040CB5740903485A1CA2F142EEA /* PBXContainerItemProxy */;
+		};
+		5BE5A4AECF54AB98DD327E23EBE35462 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ElasticTransition;
+			target = 1C9674A8BF970C51C460F3C31A82CF1B /* ElasticTransition */;
+			targetProxy = 1984738A24E7E681D9BA4AFA8DBC584B /* PBXContainerItemProxy */;
+		};
+		F7E4576D12BC98DFC57B0ECF3F30D388 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MotionAnimation;
+			target = 20EE510C33B653D0D39E8015461CA777 /* MotionAnimation */;
+			targetProxy = 9C1379C0B0BD63BE48067F0470AF5434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074088CB8F5A4DD1BD42A51010F3AAEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6218C04E31BF2B7AEE024E4A799EDE49 /* Pods-ElasticTransitionDemoTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemoTests/Pods-ElasticTransitionDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		10873A742BBC676F3E24BC37BAA43E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B2CD9D01F916A87C8C8ABD59F4F7896 /* Pods-ElasticTransitionDemoUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemoUITests/Pods-ElasticTransitionDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		251EFA356A7C92838B2A6B6189577FC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5419ACF5288AA34103EA6BB819C27560 /* Pods-ElasticTransitionDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemo/Pods-ElasticTransitionDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3DC26E106BB2F49900B15F269FD39D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7326013D24318C253B0A1CAEE5069B3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 686EBE2F4B6AE08BABAF45ABBC15DEAC /* Pods-ElasticTransitionDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemoUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemoUITests/Pods-ElasticTransitionDemoUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemoUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		811519CB8F683AC06F9C98B55AC40F11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		882EB4391EC2E701934974DA86F7343F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A15D5FCFDDBDFA33FF2D2E29DCF40B22 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7F15C076BB1841F1468250D5AC706B /* Pods-ElasticTransitionDemoTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemoTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemoTests/Pods-ElasticTransitionDemoTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemoTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB9DE2F5BEDA86F07E3855CA3729D118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7A789FD4DD80D40A9C3B47DBAE89ACF /* Pods-ElasticTransitionDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ElasticTransitionDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ElasticTransitionDemo/Pods-ElasticTransitionDemo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ElasticTransitionDemo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B08DD8A58A36D1BE24C3C9D3D15BF72E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E5C38B8E09811C4375DA6BF0D7CA82E /* MotionAnimation.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MotionAnimation/MotionAnimation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MotionAnimation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MotionAnimation/MotionAnimation.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MotionAnimation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB768A0D38E3AB8A08F955013FDEFB47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E742EF5950BCA1A1CE32DF41B9508985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54EBD3FF28EA8782C9D48B867B3AB645 /* ElasticTransition.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ElasticTransition/ElasticTransition-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ElasticTransition/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ElasticTransition/ElasticTransition.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ElasticTransition;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F1EB8210C8A48D91EB2586F7C7073DB /* Build configuration list for PBXNativeTarget "ElasticTransition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E742EF5950BCA1A1CE32DF41B9508985 /* Debug */,
+				DB768A0D38E3AB8A08F955013FDEFB47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1252DDFF9DAC44910B50531587736E96 /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB9DE2F5BEDA86F07E3855CA3729D118 /* Debug */,
+				251EFA356A7C92838B2A6B6189577FC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				882EB4391EC2E701934974DA86F7343F /* Debug */,
+				811519CB8F683AC06F9C98B55AC40F11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1A858A2BB49F824ADD24259F03359C /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7326013D24318C253B0A1CAEE5069B3C /* Debug */,
+				10873A742BBC676F3E24BC37BAA43E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C835B941F4EBBA3D45540C4EE9ED7B0 /* Build configuration list for PBXNativeTarget "MotionAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B08DD8A58A36D1BE24C3C9D3D15BF72E /* Debug */,
+				3DC26E106BB2F49900B15F269FD39D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DC8E7F6086751AE6E19D184847801A7 /* Build configuration list for PBXNativeTarget "Pods-ElasticTransitionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074088CB8F5A4DD1BD42A51010F3AAEF /* Debug */,
+				A15D5FCFDDBDFA33FF2D2E29DCF40B22 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

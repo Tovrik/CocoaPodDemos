@@ -1,0 +1,87 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "ElasticTransition-Swift.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Headers/ElasticTransition-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "ElasticTransition-umbrella.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/ElasticTransition/ElasticTransition-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/ElasticTransition.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/ElasticTransition.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MotionAnimation-Swift.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Headers/MotionAnimation-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MotionAnimation-umbrella.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/MotionAnimation/MotionAnimation-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/MotionAnimation.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/MotionAnimation.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/Pods_ElasticTransitionDemo.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-ElasticTransitionDemo-umbrella.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/Pods-ElasticTransitionDemo/Pods-ElasticTransitionDemo-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_ElasticTransitionDemo-Swift.h",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/Pods_ElasticTransitionDemo.framework/Headers/Pods_ElasticTransitionDemo-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Products/Debug-iphoneos/Pods_ElasticTransitionDemo.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-ElasticTransitionDemo.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

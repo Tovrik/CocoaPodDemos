@@ -1,0 +1,414 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MotionAnimationDelegate"
+- "MotionAnimation"
+provides-nominal:
+- "P15MotionAnimation23MotionAnimationDelegate"
+- "C15MotionAnimation15MotionAnimation"
+provides-member:
+- ["P15MotionAnimation23MotionAnimationDelegate", ""]
+- ["C15MotionAnimation15MotionAnimation", ""]
+provides-dynamic-lookup:
+- "childAnimations"
+- "playing"
+- "play"
+- "animator"
+- "update"
+- "onUpdate"
+- "addChildBehavior"
+- "stop"
+- "onCompletion"
+- "parentAnimation"
+depends-top-level:
+- "Void"
+- !private "BooleanLiteralType"
+- "MotionAnimationDelegate"
+- "MotionAnimation"
+- "Bool"
+- "CGFloat"
+- "MotionAnimator"
+- "NSObject"
+- !private "=="
+depends-member:
+- !private ["PSs9AnyObject", "MotionAnimator"]
+- !private ["PSs9AnyObject", "addAnimation"]
+- ["PSs9AnyObject", "addChildBehavior"]
+- ["PSs9AnyObject", "animator"]
+- ["PSs9AnyObject", "childAnimations"]
+- ["PSs9AnyObject", "delegate"]
+- !private ["PSs9AnyObject", "hasAnimation"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "onCompletion"]
+- ["PSs9AnyObject", "onUpdate"]
+- ["PSs9AnyObject", "parentAnimation"]
+- ["PSs9AnyObject", "play"]
+- ["PSs9AnyObject", "playing"]
+- !private ["PSs9AnyObject", "removeAnimation"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- ["PSs9AnyObject", "stop"]
+- ["PSs9AnyObject", "update"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- !private ["Sa", "indexOf"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "append"]
+- !private ["PSs23ArrayLiteralConvertible", "indexOf"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "MotionAnimator"]
+- !private ["PSs11CVarArgType", "addAnimation"]
+- ["PSs11CVarArgType", "addChildBehavior"]
+- ["PSs11CVarArgType", "animator"]
+- ["PSs11CVarArgType", "childAnimations"]
+- ["PSs11CVarArgType", "delegate"]
+- !private ["PSs11CVarArgType", "hasAnimation"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "onCompletion"]
+- ["PSs11CVarArgType", "onUpdate"]
+- ["PSs11CVarArgType", "parentAnimation"]
+- ["PSs11CVarArgType", "play"]
+- ["PSs11CVarArgType", "playing"]
+- !private ["PSs11CVarArgType", "removeAnimation"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- ["PSs11CVarArgType", "stop"]
+- ["PSs11CVarArgType", "update"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs14CollectionType", "append"]
+- !private ["PSs14CollectionType", "indexOf"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "append"]
+- !private ["PSs28CustomDebugStringConvertible", "indexOf"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "MotionAnimator"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addAnimation"]
+- ["PSs23CustomStringConvertible", "addChildBehavior"]
+- ["PSs23CustomStringConvertible", "animator"]
+- !private ["PSs23CustomStringConvertible", "append"]
+- ["PSs23CustomStringConvertible", "childAnimations"]
+- ["PSs23CustomStringConvertible", "delegate"]
+- !private ["PSs23CustomStringConvertible", "hasAnimation"]
+- !private ["PSs23CustomStringConvertible", "indexOf"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "onCompletion"]
+- ["PSs23CustomStringConvertible", "onUpdate"]
+- ["PSs23CustomStringConvertible", "parentAnimation"]
+- ["PSs23CustomStringConvertible", "play"]
+- ["PSs23CustomStringConvertible", "playing"]
+- !private ["PSs23CustomStringConvertible", "removeAnimation"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- ["PSs23CustomStringConvertible", "stop"]
+- ["PSs23CustomStringConvertible", "update"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "MotionAnimator"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addAnimation"]
+- ["PSs9Equatable", "addChildBehavior"]
+- ["PSs9Equatable", "animator"]
+- ["PSs9Equatable", "childAnimations"]
+- ["PSs9Equatable", "delegate"]
+- !private ["PSs9Equatable", "hasAnimation"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "onCompletion"]
+- ["PSs9Equatable", "onUpdate"]
+- ["PSs9Equatable", "parentAnimation"]
+- ["PSs9Equatable", "play"]
+- ["PSs9Equatable", "playing"]
+- !private ["PSs9Equatable", "removeAnimation"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- ["PSs9Equatable", "stop"]
+- ["PSs9Equatable", "update"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "MotionAnimator"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addAnimation"]
+- ["PSs8Hashable", "addChildBehavior"]
+- ["PSs8Hashable", "animator"]
+- ["PSs8Hashable", "childAnimations"]
+- ["PSs8Hashable", "delegate"]
+- !private ["PSs8Hashable", "hasAnimation"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "onCompletion"]
+- ["PSs8Hashable", "onUpdate"]
+- ["PSs8Hashable", "parentAnimation"]
+- ["PSs8Hashable", "play"]
+- ["PSs8Hashable", "playing"]
+- !private ["PSs8Hashable", "removeAnimation"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- ["PSs8Hashable", "stop"]
+- ["PSs8Hashable", "update"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["PSs9Indexable", "append"]
+- !private ["PSs9Indexable", "indexOf"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- ["C15MotionAnimation15MotionAnimation", "Bool"]
+- ["C15MotionAnimation15MotionAnimation", "CGFloat"]
+- ["C15MotionAnimation15MotionAnimation", "MotionAnimation"]
+- ["C15MotionAnimation15MotionAnimation", "MotionAnimationDelegate"]
+- ["C15MotionAnimation15MotionAnimation", "MotionAnimator"]
+- ["C15MotionAnimation15MotionAnimation", "Void"]
+- ["C15MotionAnimation15MotionAnimation", "addChildBehavior"]
+- ["C15MotionAnimation15MotionAnimation", "animator"]
+- ["C15MotionAnimation15MotionAnimation", "childAnimations"]
+- ["C15MotionAnimation15MotionAnimation", "deinit"]
+- ["C15MotionAnimation15MotionAnimation", "delegate"]
+- ["C15MotionAnimation15MotionAnimation", "init"]
+- ["C15MotionAnimation15MotionAnimation", "onCompletion"]
+- ["C15MotionAnimation15MotionAnimation", "onUpdate"]
+- ["C15MotionAnimation15MotionAnimation", "parentAnimation"]
+- ["C15MotionAnimation15MotionAnimation", "play"]
+- ["C15MotionAnimation15MotionAnimation", "playing"]
+- ["C15MotionAnimation15MotionAnimation", "stop"]
+- ["C15MotionAnimation15MotionAnimation", "update"]
+- ["P15MotionAnimation23MotionAnimationDelegate", "MotionAnimation"]
+- ["P15MotionAnimation23MotionAnimationDelegate", "animationDidPerformStep"]
+- ["P15MotionAnimation23MotionAnimationDelegate", "animationDidStop"]
+- !private ["C15MotionAnimation14MotionAnimator", "addAnimation"]
+- !private ["C15MotionAnimation14MotionAnimator", "hasAnimation"]
+- !private ["C15MotionAnimation14MotionAnimator", "removeAnimation"]
+- !private ["C15MotionAnimation14MotionAnimator", "sharedInstance"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs21MutableCollectionType", "append"]
+- !private ["PSs21MutableCollectionType", "indexOf"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableIndexable", "append"]
+- !private ["PSs16MutableIndexable", "indexOf"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSs16MutableSliceable", "append"]
+- !private ["PSs16MutableSliceable", "indexOf"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "MotionAnimation"]
+- ["CSo8NSObject", "MotionAnimationDelegate"]
+- ["CSo8NSObject", "MotionAnimator"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addAnimation"]
+- ["CSo8NSObject", "addChildBehavior"]
+- ["CSo8NSObject", "animator"]
+- ["CSo8NSObject", "childAnimations"]
+- ["CSo8NSObject", "delegate"]
+- !private ["CSo8NSObject", "hasAnimation"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "onCompletion"]
+- ["CSo8NSObject", "onUpdate"]
+- ["CSo8NSObject", "parentAnimation"]
+- ["CSo8NSObject", "play"]
+- ["CSo8NSObject", "playing"]
+- !private ["CSo8NSObject", "removeAnimation"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "stop"]
+- ["CSo8NSObject", "update"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "MotionAnimator"]
+- !private ["PSo16NSObjectProtocol", "addAnimation"]
+- ["PSo16NSObjectProtocol", "addChildBehavior"]
+- ["PSo16NSObjectProtocol", "animator"]
+- ["PSo16NSObjectProtocol", "childAnimations"]
+- ["PSo16NSObjectProtocol", "delegate"]
+- !private ["PSo16NSObjectProtocol", "hasAnimation"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "onCompletion"]
+- ["PSo16NSObjectProtocol", "onUpdate"]
+- ["PSo16NSObjectProtocol", "parentAnimation"]
+- ["PSo16NSObjectProtocol", "play"]
+- ["PSo16NSObjectProtocol", "playing"]
+- !private ["PSo16NSObjectProtocol", "removeAnimation"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "stop"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "append"]
+- !private ["PSs30RangeReplaceableCollectionType", "indexOf"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs12SequenceType", "append"]
+- !private ["PSs12SequenceType", "indexOf"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs10_ArrayType", "append"]
+- !private ["PSs10_ArrayType", "indexOf"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs24_DestructorSafeContainer", "append"]
+- !private ["PSs24_DestructorSafeContainer", "indexOf"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "append"]
+- !private ["PSs21_ObjectiveCBridgeable", "indexOf"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "append"]
+- !private ["PSs12_Reflectable", "indexOf"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "PSs14MirrorPathType"
+- "C15MotionAnimation15MotionAnimation"
+- "P15MotionAnimation23MotionAnimationDelegate"
+- !private "C15MotionAnimation14MotionAnimator"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs12SequenceType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Strideable"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- !private "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/MotionAnimation/MotionAnimation-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphoneos/MotionAnimation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "7b3d6302cdb1486a6d847cff08ff4156"

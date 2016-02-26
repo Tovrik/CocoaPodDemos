@@ -1,0 +1,369 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LZPanGestureRecognizer"
+provides-nominal:
+- "C15MotionAnimation22LZPanGestureRecognizer"
+provides-member:
+- ["C15MotionAnimation22LZPanGestureRecognizer", ""]
+provides-dynamic-lookup:
+- "translatedViewCenterPoint"
+- "yOverflowScale"
+- "xOverflowScale"
+- "touchesBegan"
+depends-top-level:
+- !private "<"
+- !private "-"
+- "UIPanGestureRecognizer"
+- !private "CGPointZero"
+- !private "*"
+- !private "=="
+- !private ">"
+- !private "+"
+- "CGFloat"
+- "LZPanGestureRecognizer"
+- "Set"
+- "UIEvent"
+- "CGPoint"
+- !private "??"
+- "UITouch"
+- "ClosedInterval"
+- "..."
+depends-member:
+- ["PSs16AbsoluteValuable", "max"]
+- ["PSs16AbsoluteValuable", "min"]
+- ["PSs9AnyObject", "CGFloat"]
+- !private ["PSs9AnyObject", "CGPointZero"]
+- !private ["PSs9AnyObject", "center"]
+- ["PSs9AnyObject", "clamp"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "startViewCenterPoint"]
+- !private ["PSs9AnyObject", "state"]
+- !private ["PSs9AnyObject", "superview"]
+- ["PSs9AnyObject", "touchesBegan"]
+- ["PSs9AnyObject", "translatedViewCenterPoint"]
+- !private ["PSs9AnyObject", "translationInView"]
+- !private ["PSs9AnyObject", "view"]
+- ["PSs9AnyObject", "xOverflowScale"]
+- ["PSs9AnyObject", "xRange"]
+- ["PSs9AnyObject", "yOverflowScale"]
+- ["PSs9AnyObject", "yRange"]
+- ["PSs9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["V12CoreGraphics7CGFloat", "max"]
+- ["V12CoreGraphics7CGFloat", "min"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["PSs11CVarArgType", "CGFloat"]
+- !private ["PSs11CVarArgType", "CGPointZero"]
+- !private ["PSs11CVarArgType", "center"]
+- ["PSs11CVarArgType", "clamp"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "max"]
+- ["PSs11CVarArgType", "min"]
+- ["PSs11CVarArgType", "startViewCenterPoint"]
+- !private ["PSs11CVarArgType", "state"]
+- !private ["PSs11CVarArgType", "superview"]
+- ["PSs11CVarArgType", "touchesBegan"]
+- ["PSs11CVarArgType", "translatedViewCenterPoint"]
+- !private ["PSs11CVarArgType", "translationInView"]
+- !private ["PSs11CVarArgType", "view"]
+- ["PSs11CVarArgType", "xOverflowScale"]
+- ["PSs11CVarArgType", "xRange"]
+- ["PSs11CVarArgType", "yOverflowScale"]
+- ["PSs11CVarArgType", "yRange"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs14ClosedInterval", "end"]
+- !private ["VSs14ClosedInterval", "start"]
+- ["PSs10Comparable", "max"]
+- ["PSs10Comparable", "min"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "end"]
+- !private ["PSs28CustomDebugStringConvertible", "start"]
+- ["PSs23CustomStringConvertible", "CGFloat"]
+- !private ["PSs23CustomStringConvertible", "CGPointZero"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "center"]
+- ["PSs23CustomStringConvertible", "clamp"]
+- !private ["PSs23CustomStringConvertible", "end"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "max"]
+- ["PSs23CustomStringConvertible", "min"]
+- !private ["PSs23CustomStringConvertible", "start"]
+- ["PSs23CustomStringConvertible", "startViewCenterPoint"]
+- !private ["PSs23CustomStringConvertible", "state"]
+- !private ["PSs23CustomStringConvertible", "superview"]
+- ["PSs23CustomStringConvertible", "touchesBegan"]
+- ["PSs23CustomStringConvertible", "translatedViewCenterPoint"]
+- !private ["PSs23CustomStringConvertible", "translationInView"]
+- !private ["PSs23CustomStringConvertible", "view"]
+- ["PSs23CustomStringConvertible", "xOverflowScale"]
+- ["PSs23CustomStringConvertible", "xRange"]
+- ["PSs23CustomStringConvertible", "yOverflowScale"]
+- ["PSs23CustomStringConvertible", "yRange"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "CGFloat"]
+- !private ["PSs9Equatable", "CGPointZero"]
+- !private ["PSs9Equatable", "Failed"]
+- !private ["PSs9Equatable", "RawValue"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "center"]
+- ["PSs9Equatable", "clamp"]
+- !private ["PSs9Equatable", "end"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "max"]
+- ["PSs9Equatable", "min"]
+- !private ["PSs9Equatable", "start"]
+- ["PSs9Equatable", "startViewCenterPoint"]
+- !private ["PSs9Equatable", "state"]
+- !private ["PSs9Equatable", "superview"]
+- ["PSs9Equatable", "touchesBegan"]
+- ["PSs9Equatable", "translatedViewCenterPoint"]
+- !private ["PSs9Equatable", "translationInView"]
+- !private ["PSs9Equatable", "view"]
+- !private ["PSs9Equatable", "x"]
+- ["PSs9Equatable", "xOverflowScale"]
+- ["PSs9Equatable", "xRange"]
+- !private ["PSs9Equatable", "y"]
+- ["PSs9Equatable", "yOverflowScale"]
+- ["PSs9Equatable", "yRange"]
+- ["PSs9Equatable", ""]
+- ["PSs23FloatLiteralConvertible", "max"]
+- ["PSs23FloatLiteralConvertible", "min"]
+- ["PSs17FloatingPointType", "max"]
+- ["PSs17FloatingPointType", "min"]
+- ["PSs8Hashable", "CGFloat"]
+- !private ["PSs8Hashable", "CGPointZero"]
+- !private ["PSs8Hashable", "Failed"]
+- !private ["PSs8Hashable", "RawValue"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "center"]
+- ["PSs8Hashable", "clamp"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "max"]
+- ["PSs8Hashable", "min"]
+- ["PSs8Hashable", "startViewCenterPoint"]
+- !private ["PSs8Hashable", "state"]
+- !private ["PSs8Hashable", "superview"]
+- ["PSs8Hashable", "touchesBegan"]
+- ["PSs8Hashable", "translatedViewCenterPoint"]
+- !private ["PSs8Hashable", "translationInView"]
+- !private ["PSs8Hashable", "view"]
+- ["PSs8Hashable", "xOverflowScale"]
+- ["PSs8Hashable", "xRange"]
+- ["PSs8Hashable", "yOverflowScale"]
+- ["PSs8Hashable", "yRange"]
+- ["PSs8Hashable", ""]
+- ["PSs25IntegerLiteralConvertible", "max"]
+- ["PSs25IntegerLiteralConvertible", "min"]
+- !private ["PSs12IntervalType", "end"]
+- !private ["PSs12IntervalType", "start"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "CGFloat"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "CGPoint"]
+- !private ["C15MotionAnimation22LZPanGestureRecognizer", "CGPointZero"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "ClosedInterval"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "Set"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "UIEvent"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "UITouch"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "clamp"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "deinit"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "init"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "startViewCenterPoint"]
+- !private ["C15MotionAnimation22LZPanGestureRecognizer", "state"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "touchesBegan"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "translatedViewCenterPoint"]
+- !private ["C15MotionAnimation22LZPanGestureRecognizer", "translationInView"]
+- !private ["C15MotionAnimation22LZPanGestureRecognizer", "view"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "xOverflowScale"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "xRange"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "yOverflowScale"]
+- ["C15MotionAnimation22LZPanGestureRecognizer", "yRange"]
+- !private ["PSo8NSCoding", "center"]
+- !private ["PSo8NSCoding", "superview"]
+- ["CSo8NSObject", "CGFloat"]
+- ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGPointZero"]
+- ["CSo8NSObject", "ClosedInterval"]
+- ["CSo8NSObject", "Set"]
+- ["CSo8NSObject", "UIEvent"]
+- ["CSo8NSObject", "UITouch"]
+- !private ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "clamp"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "startViewCenterPoint"]
+- !private ["CSo8NSObject", "state"]
+- !private ["CSo8NSObject", "superview"]
+- ["CSo8NSObject", "touchesBegan"]
+- ["CSo8NSObject", "translatedViewCenterPoint"]
+- !private ["CSo8NSObject", "translationInView"]
+- !private ["CSo8NSObject", "view"]
+- ["CSo8NSObject", "xOverflowScale"]
+- ["CSo8NSObject", "xRange"]
+- ["CSo8NSObject", "yOverflowScale"]
+- ["CSo8NSObject", "yRange"]
+- ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPointZero"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- ["PSo16NSObjectProtocol", "clamp"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "startViewCenterPoint"]
+- !private ["PSo16NSObjectProtocol", "state"]
+- !private ["PSo16NSObjectProtocol", "superview"]
+- ["PSo16NSObjectProtocol", "touchesBegan"]
+- ["PSo16NSObjectProtocol", "translatedViewCenterPoint"]
+- !private ["PSo16NSObjectProtocol", "translationInView"]
+- !private ["PSo16NSObjectProtocol", "view"]
+- ["PSo16NSObjectProtocol", "xOverflowScale"]
+- ["PSo16NSObjectProtocol", "xRange"]
+- ["PSo16NSObjectProtocol", "yOverflowScale"]
+- ["PSo16NSObjectProtocol", "yRange"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["PSs16RawRepresentable", "Failed"]
+- !private ["PSs16RawRepresentable", "RawValue"]
+- ["PSs16SignedNumberType", "max"]
+- ["PSs16SignedNumberType", "min"]
+- ["PSs10Strideable", "max"]
+- ["PSs10Strideable", "min"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- !private ["PSo29UIAccessibilityIdentification", "superview"]
+- !private ["PSo12UIAppearance", "center"]
+- !private ["PSo12UIAppearance", "superview"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- !private ["PSo21UIAppearanceContainer", "superview"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- !private ["PSo17UICoordinateSpace", "superview"]
+- !private ["PSo13UIDynamicItem", "center"]
+- !private ["PSo13UIDynamicItem", "superview"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- !private ["PSo18UIFocusEnvironment", "superview"]
+- ["CSo19UIGestureRecognizer", "CGFloat"]
+- ["CSo19UIGestureRecognizer", "CGPoint"]
+- !private ["CSo19UIGestureRecognizer", "CGPointZero"]
+- ["CSo19UIGestureRecognizer", "ClosedInterval"]
+- ["CSo19UIGestureRecognizer", "Set"]
+- ["CSo19UIGestureRecognizer", "UIEvent"]
+- ["CSo19UIGestureRecognizer", "UITouch"]
+- ["CSo19UIGestureRecognizer", "clamp"]
+- ["CSo19UIGestureRecognizer", "init"]
+- ["CSo19UIGestureRecognizer", "startViewCenterPoint"]
+- !private ["CSo19UIGestureRecognizer", "state"]
+- ["CSo19UIGestureRecognizer", "touchesBegan"]
+- ["CSo19UIGestureRecognizer", "translatedViewCenterPoint"]
+- !private ["CSo19UIGestureRecognizer", "translationInView"]
+- !private ["CSo19UIGestureRecognizer", "view"]
+- ["CSo19UIGestureRecognizer", "xOverflowScale"]
+- ["CSo19UIGestureRecognizer", "xRange"]
+- ["CSo19UIGestureRecognizer", "yOverflowScale"]
+- ["CSo19UIGestureRecognizer", "yRange"]
+- !private ["OSC24UIGestureRecognizerState", "Failed"]
+- !private ["OSC24UIGestureRecognizerState", "RawValue"]
+- !private ["OSC24UIGestureRecognizerState", "deinit"]
+- ["CSo22UIPanGestureRecognizer", "CGFloat"]
+- ["CSo22UIPanGestureRecognizer", "CGPoint"]
+- !private ["CSo22UIPanGestureRecognizer", "CGPointZero"]
+- ["CSo22UIPanGestureRecognizer", "ClosedInterval"]
+- ["CSo22UIPanGestureRecognizer", "Set"]
+- ["CSo22UIPanGestureRecognizer", "UIEvent"]
+- ["CSo22UIPanGestureRecognizer", "UITouch"]
+- ["CSo22UIPanGestureRecognizer", "clamp"]
+- ["CSo22UIPanGestureRecognizer", "init"]
+- ["CSo22UIPanGestureRecognizer", "startViewCenterPoint"]
+- !private ["CSo22UIPanGestureRecognizer", "state"]
+- ["CSo22UIPanGestureRecognizer", "touchesBegan"]
+- ["CSo22UIPanGestureRecognizer", "translatedViewCenterPoint"]
+- !private ["CSo22UIPanGestureRecognizer", "translationInView"]
+- !private ["CSo22UIPanGestureRecognizer", "view"]
+- ["CSo22UIPanGestureRecognizer", "xOverflowScale"]
+- ["CSo22UIPanGestureRecognizer", "xRange"]
+- ["CSo22UIPanGestureRecognizer", "yOverflowScale"]
+- ["CSo22UIPanGestureRecognizer", "yRange"]
+- ["CSo22UIPanGestureRecognizer", ""]
+- !private ["CSo11UIResponder", "center"]
+- !private ["CSo11UIResponder", "superview"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- !private ["PSo18UITraitEnvironment", "superview"]
+- !private ["CSo6UIView", "center"]
+- !private ["CSo6UIView", "superview"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- ["PSs19_CVarArgAlignedType", "max"]
+- ["PSs19_CVarArgAlignedType", "min"]
+- ["PSs22_CVarArgPassedAsDouble", "max"]
+- ["PSs22_CVarArgPassedAsDouble", "min"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["PSs21_ObjectiveCBridgeable", "max"]
+- ["PSs21_ObjectiveCBridgeable", "min"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "center"]
+- !private ["PSs12_Reflectable", "end"]
+- ["PSs12_Reflectable", "max"]
+- ["PSs12_Reflectable", "min"]
+- !private ["PSs12_Reflectable", "start"]
+- !private ["PSs12_Reflectable", "superview"]
+- !private ["PSs12_Reflectable", "x"]
+- !private ["PSs12_Reflectable", "y"]
+- ["PSs11_Strideable", "max"]
+- ["PSs11_Strideable", "min"]
+depends-nominal:
+- "PSs16AbsoluteValuable"
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC7CGPoint"
+- "PSs11CVarArgType"
+- !private "VSs14ClosedInterval"
+- "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs23FloatLiteralConvertible"
+- "PSs17FloatingPointType"
+- "PSs8Hashable"
+- "PSs25IntegerLiteralConvertible"
+- !private "PSs12IntervalType"
+- "C15MotionAnimation22LZPanGestureRecognizer"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- !private "PSs16RawRepresentable"
+- "PSs16SignedNumberType"
+- "PSs10Strideable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- "CSo19UIGestureRecognizer"
+- !private "OSC24UIGestureRecognizerState"
+- "CSo22UIPanGestureRecognizer"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- "PSs19_CVarArgAlignedType"
+- "PSs22_CVarArgPassedAsDouble"
+- "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+- "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/Pods/Target Support Files/MotionAnimation/MotionAnimation-umbrella.h"
+- "/Users/stefan/Documents/Developer/CodingSwiftly/CocoaPodDemos/ElasticTransitionDemo/DerivedData/ElasticTransitionDemo/Build/Intermediates/Pods.build/Debug-iphonesimulator/MotionAnimation.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "e475711d4996da3d3179ac4b9e115f03"
